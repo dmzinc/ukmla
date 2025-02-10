@@ -1,0 +1,19 @@
+# Ignore PDF files
+*.pdf
+
+# Common system files to ignore
+.DS_Store
+Thumbs.db
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Node modules if you decide to use npm later
+node_modules/
+
+# Environment files if needed later
+.env
+.env.local 
