@@ -5,6 +5,8 @@ let timeLeft = 60 * 60; // 60 minutes in seconds
 let timer;
 let questionAnswered = false;
 let canProceedWithoutAnswer = true; // New variable to control skipping
+const userManager = new UserManager();
+const scoreHistory = new ScoreHistory(userManager);
 
 // Add this function to shuffle the array
 function shuffleArray(array) {
@@ -21,29 +23,90 @@ function getRandomQuestions(allQuestions, count) {
     return shuffled.slice(0, count);
 }
 
-// Modify the loadQuestions function
+// Modify the loadQuestions function to add more detailed logging
 async function loadQuestions() {
     try {
         const response = await fetch('questions.json');
         const data = await response.json();
+        
+        // Verify we have questions loaded
+        if (!data.questions || data.questions.length === 0) {
+            throw new Error('No questions found in the JSON file');
+        }
+
+        // Add detailed logging
+        const totalQuestions = data.questions.length;
+        console.log('Question Pool Statistics:');
+        console.log(`Total questions available: ${totalQuestions}`);
+        console.log(`First question: "${data.questions[0].question.substring(0, 50)}..."`);
+        console.log(`Last question: "${data.questions[totalQuestions-1].question.substring(0, 50)}..."`);
+        
         // Get 50 random questions from the pool
         questions = getRandomQuestions(data.questions, 50);
+        
+        // Log selection statistics
+        const selectedIndices = new Set();
+        questions.forEach(q => {
+            const index = data.questions.findIndex(original => original.question === q.question);
+            selectedIndices.add(index);
+        });
+        
+        console.log('\nSelection Statistics:');
+        console.log(`Selected ${questions.length} questions from ${totalQuestions} total questions`);
+        console.log(`Selection range: from index ${Math.min(...selectedIndices)} to ${Math.max(...selectedIndices)}`);
+        
+        // Add question count to the start screen
+        const questionCountElement = document.querySelector('.question-count');
+        if (questionCountElement) {
+            questionCountElement.textContent = `(Selected from a pool of ${totalQuestions} questions)`;
+        }
+        
+        // Enable start button once questions are loaded
+        document.getElementById('start-btn').disabled = false;
+        document.getElementById('start-btn').textContent = 'Start Test';
+        
     } catch (error) {
         console.error('Error loading questions:', error);
+        // Show error message to user
+        alert('Error loading questions. Please refresh the page and try again.');
     }
 }
 
-// Initialize the quiz
+// Update the initQuiz function to show loading state
 async function initQuiz() {
+    // Disable start button while loading
+    const startBtn = document.getElementById('start-btn');
+    startBtn.disabled = true;
+    startBtn.textContent = 'Loading Questions...';
+    
     await loadQuestions();
-    document.getElementById('start-btn').addEventListener('click', startQuiz);
+    
+    // Reset button text
+    startBtn.textContent = 'Start Test';
+    
+    // Add event listeners
+    startBtn.addEventListener('click', startQuiz);
     document.getElementById('prev-btn').addEventListener('click', showPreviousQuestion);
     document.getElementById('next-btn').addEventListener('click', showNextQuestion);
     document.getElementById('submit-btn').addEventListener('click', submitQuiz);
+    document.getElementById('view-progress-btn').addEventListener('click', showProgressScreen);
+    document.getElementById('back-to-start').addEventListener('click', showStartScreen);
+    
+    // Add logout handler
+    document.getElementById('logout-btn').addEventListener('click', handleLogout);
+    
+    // Add new event listeners for results screen buttons
+    document.getElementById('retake-btn').addEventListener('click', retakeQuiz);
+    document.getElementById('results-logout-btn').addEventListener('click', handleLogout);
+}
+
+function hideAllScreens() {
+    const screens = document.querySelectorAll('.screen');
+    screens.forEach(screen => screen.classList.add('hidden'));
 }
 
 function startQuiz() {
-    document.getElementById('start-screen').classList.add('hidden');
+    hideAllScreens();
     document.getElementById('quiz-screen').classList.remove('hidden');
     document.getElementById('progress').textContent = `Question: 1/50`; // Update progress text
     startTimer();
@@ -208,10 +271,15 @@ function submitQuiz() {
 }
 
 function showResults() {
-    document.getElementById('quiz-screen').classList.add('hidden');
+    hideAllScreens();
     document.getElementById('results-screen').classList.remove('hidden');
-
+    
     const scoreData = calculateDetailedScore();
+    scoreData.timeTaken = formatTimeTaken();
+    
+    // Save the score to history
+    scoreHistory.saveScore(scoreData);
+    
     document.getElementById('score').textContent = scoreData.percentage.toFixed(2);
     document.getElementById('time-taken').textContent = formatTimeTaken();
 
@@ -228,6 +296,11 @@ function showResults() {
     `;
 
     showMissedQuestions();
+
+    // Add event listeners for the results screen buttons
+    document.getElementById('retake-btn').addEventListener('click', retakeQuiz);
+    document.getElementById('results-progress-btn').addEventListener('click', showProgressScreen);
+    document.getElementById('results-logout-btn').addEventListener('click', handleLogout);
 }
 
 function calculateDetailedScore() {
@@ -315,5 +388,113 @@ function updateQuestionNavPanel() {
     });
 }
 
-// Initialize the quiz when the page loads
-window.addEventListener('load', initQuiz); 
+function showProgressScreen() {
+    hideAllScreens();
+    document.getElementById('progress-screen').classList.remove('hidden');
+    updateProgressDisplay();
+}
+
+function showStartScreen() {
+    hideAllScreens();
+    document.getElementById('start-screen').classList.remove('hidden');
+    document.getElementById('user-name').textContent = userManager.getCurrentUser();
+    initQuiz();
+}
+
+function updateProgressDisplay() {
+    const scores = scoreHistory.getScores();
+    
+    // Update summary statistics
+    document.getElementById('tests-taken').textContent = scores.length;
+    document.getElementById('average-score').textContent = `${scoreHistory.getAverageScore()}%`;
+    document.getElementById('highest-score').textContent = `${scoreHistory.getHighestScore()}%`;
+    
+    // Update score history list
+    const scoreList = document.getElementById('score-list');
+    scoreList.innerHTML = '';
+    
+    scores.slice(0, 10).forEach(score => {
+        const date = new Date(score.date).toLocaleDateString();
+        const scoreItem = document.createElement('div');
+        scoreItem.className = 'score-item';
+        scoreItem.innerHTML = `
+            <span class="score-date">${date}</span>
+            <span class="score-details">
+                Correct: ${score.correct} | Incorrect: ${score.incorrect} | Unanswered: ${score.unanswered}
+            </span>
+            <span class="score-value">${score.score.toFixed(2)}%</span>
+        `;
+        scoreList.appendChild(scoreItem);
+    });
+}
+
+// Add these new functions
+function initializeApp() {
+    if (userManager.loadCurrentUser()) {
+        showStartScreen();
+    } else {
+        showLoginScreen();
+    }
+}
+
+function showLoginScreen() {
+    document.getElementById('login-screen').classList.remove('hidden');
+    document.getElementById('start-screen').classList.add('hidden');
+    
+    const loginBtn = document.getElementById('login-btn');
+    const usernameInput = document.getElementById('username-input');
+    
+    loginBtn.addEventListener('click', () => handleLogin());
+    usernameInput.addEventListener('keypress', (e) => {
+        if (e.key === 'Enter') handleLogin();
+    });
+}
+
+function handleLogin() {
+    const username = document.getElementById('username-input').value.trim();
+    if (username) {
+        userManager.loginUser(username);
+        showStartScreen();
+    }
+}
+
+// Add logout handling
+function handleLogout() {
+    userManager.logoutUser();
+    location.reload();
+}
+
+// Add this new function
+function retakeQuiz() {
+    // Reset all quiz state
+    currentQuestion = 0;
+    userAnswers = [];
+    timeLeft = 60 * 60; // Reset timer to 60 minutes
+    questionAnswered = false;
+    
+    // Clear the questions array and load new questions
+    questions = [];
+    
+    // Hide results screen
+    document.getElementById('results-screen').classList.add('hidden');
+    // Show start screen
+    document.getElementById('start-screen').classList.remove('hidden');
+    
+    // Reset and load new questions
+    loadQuestions();
+    
+    // Update the question count display
+    document.getElementById('progress').textContent = 'Question: 1/50';
+    
+    // Clear any existing feedback or highlights
+    const optionsContainer = document.getElementById('options-container');
+    if (optionsContainer) {
+        optionsContainer.innerHTML = '';
+    }
+    
+    // Reset the question navigation panel
+    updateQuestionNavPanel();
+}
+
+// Update window.onload
+window.addEventListener('load', initializeApp); 

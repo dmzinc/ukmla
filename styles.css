@@ -97,9 +97,60 @@ button:disabled {
 
 .missed-question {
     margin: 2rem 0;
+    padding: 1.5rem;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    background-color: white;
+}
+
+.missed-question .question-text {
+    font-weight: 500;
+    color: #333;
     padding: 1rem;
-    border: 1px solid #ddd;
+    background-color: #f8f9fa;
+    border-radius: 6px;
+    margin-bottom: 1rem;
+    border-left: 4px solid #2196f3;
+}
+
+.missed-question .user-answer {
+    color: #d32f2f;
+    margin: 1rem 0;
+    padding: 0.5rem 1rem;
+    background-color: #ffebee;
     border-radius: 4px;
+}
+
+.missed-question .correct-answer {
+    color: #2e7d32;
+    font-weight: 500;
+    margin: 1rem 0;
+    padding: 0.5rem 1rem;
+    background-color: #e8f5e9;
+    border-radius: 4px;
+}
+
+.missed-question .explanation {
+    margin-top: 1.5rem;
+    padding: 1.5rem;
+    background-color: #fff3e0;
+    border-radius: 6px;
+    border: 1px solid #ffe0b2;
+}
+
+.missed-question .explanation::before {
+    content: "Explanation:";
+    display: block;
+    color: #e65100;
+    font-weight: bold;
+    margin-bottom: 0.75rem;
+    font-size: 1.1rem;
+}
+
+.missed-question .explanation p {
+    color: #424242;
+    line-height: 1.6;
+    margin: 0;
 }
 
 .correct-answer {
@@ -396,4 +447,193 @@ button:disabled {
     .header {
         margin-bottom: 0.5rem;
     }
+}
+
+/* Add these styles to your existing CSS */
+#start-btn:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+/* Add a loading animation */
+@keyframes pulse {
+    0% { opacity: 1; }
+    50% { opacity: 0.5; }
+    100% { opacity: 1; }
+}
+
+#start-btn:disabled {
+    animation: pulse 1.5s infinite;
+}
+
+/* Add these styles for the progress screen */
+.progress-summary {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    margin: 2rem 0;
+}
+
+.progress-stat {
+    background: #f8f9fa;
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.progress-stat h3 {
+    color: #666;
+    margin-bottom: 0.5rem;
+}
+
+.progress-stat p {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #2196f3;
+}
+
+.score-history {
+    margin: 2rem 0;
+}
+
+.score-item {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    gap: 1rem;
+    padding: 1rem;
+    border-bottom: 1px solid #eee;
+    align-items: center;
+}
+
+.score-item:hover {
+    background: #f8f9fa;
+}
+
+.score-date {
+    color: #666;
+    font-size: 0.9rem;
+}
+
+.score-value {
+    font-weight: bold;
+    color: #2196f3;
+}
+
+.secondary-btn {
+    background: #f8f9fa;
+    color: #333;
+    border: 1px solid #ddd;
+    padding: 0.8rem 1.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+.secondary-btn:hover {
+    background: #e9ecef;
+}
+
+/* Add these styles for the login screen */
+.login-container {
+    max-width: 400px;
+    margin: 2rem auto;
+    text-align: center;
+}
+
+#username-input {
+    width: 100%;
+    padding: 0.8rem;
+    margin: 1rem 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.welcome-text {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    color: #2196f3;
+}
+
+#logout-btn {
+    margin-top: 1rem;
+    background-color: #f8f9fa;
+}
+
+/* Update the results buttons styles */
+.results-buttons {
+    display: flex;
+    gap: 1rem;
+    margin: 1rem 0 2rem 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.results-buttons button {
+    padding: 0.6rem 1.2rem;
+    font-size: 0.9rem;
+    width: 140px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+}
+
+.results-buttons .primary-btn,
+.results-buttons .secondary-btn {
+    margin: 0;
+    line-height: 1;
+}
+
+.results-buttons .primary-btn {
+    background-color: #2196f3;
+    color: white;
+    border: none;
+}
+
+.results-buttons .secondary-btn {
+    background-color: #f8f9fa;
+    color: #333;
+    border: 1px solid #ddd;
+}
+
+.results-buttons .primary-btn:hover {
+    background-color: #1976d2;
+}
+
+.results-buttons .secondary-btn:hover {
+    background-color: #e9ecef;
+}
+
+/* Style for the user's answer when correct */
+.missed-question .user-answer.correct {
+    color: #2e7d32;
+    margin: 1rem 0;
+    padding: 0.5rem 1rem;
+    background-color: #e8f5e9;
+    border-radius: 4px;
+}
+
+/* Style for the user's answer when incorrect */
+.missed-question .user-answer.incorrect {
+    color: #d32f2f;
+    margin: 1rem 0;
+    padding: 0.5rem 1rem;
+    background-color: #ffebee;
+    border-radius: 4px;
+}
+
+/* Add a label before the user's answer */
+.missed-question .user-answer::before {
+    content: "Your answer: ";
+    color: #666;
+    font-weight: normal;
+}
+
+/* Style for the correct answer section */
+.missed-question .correct-answer::before {
+    content: "Correct answer: ";
+    color: #666;
+    font-weight: normal;
 } 

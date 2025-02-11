@@ -3,15 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Medical Quiz</title>
+    <title>UKMLA Practice Test</title>
     <link rel="stylesheet" href="./styles.css?v=1.0">
 </head>
 <body>
     <div class="container">
-        <div id="start-screen" class="screen">
-            <h1>Medical Knowledge Quiz</h1>
+        <div id="login-screen" class="screen">
+            <h1>UKMLA Practice Test</h1>
+            <div class="login-container">
+                <h2>Welcome!</h2>
+                <p>Please enter your name to continue</p>
+                <input type="text" id="username-input" placeholder="Enter your name" maxlength="30">
+                <button id="login-btn">Continue</button>
+            </div>
+        </div>
+
+        <div id="start-screen" class="screen hidden">
+            <h1>UKMLA Practice Test</h1>
+            <p class="welcome-text">Welcome, <span id="user-name"></span>!</p>
             <p>You have 60 minutes to complete 50 questions</p>
-            <button id="start-btn">Start Quiz</button>
+            <p class="question-count"></p>
+            <button id="start-btn" disabled>Loading Questions...</button>
+            <button id="view-progress-btn">View Progress</button>
+            <button id="logout-btn" class="secondary-btn">Logout</button>
+        </div>
+
+        <div id="progress-screen" class="screen hidden">
+            <h2>Your Progress</h2>
+            <div class="progress-summary">
+                <div class="progress-stat">
+                    <h3>Tests Taken</h3>
+                    <p id="tests-taken">0</p>
+                </div>
+                <div class="progress-stat">
+                    <h3>Average Score</h3>
+                    <p id="average-score">0%</p>
+                </div>
+                <div class="progress-stat">
+                    <h3>Highest Score</h3>
+                    <p id="highest-score">0%</p>
+                </div>
+            </div>
+            <div class="score-history">
+                <h3>Recent Scores</h3>
+                <div id="score-list"></div>
+            </div>
+            <button id="back-to-start" class="secondary-btn">Back to Test</button>
         </div>
 
         <div id="quiz-screen" class="screen hidden">
@@ -30,7 +67,7 @@
                     <div class="navigation">
                         <button id="prev-btn">Previous</button>
                         <button id="next-btn">Next</button>
-                        <button id="submit-btn" class="hidden">Submit Quiz</button>
+                        <button id="submit-btn" class="hidden">Submit Test</button>
                     </div>
                 </div>
                 
@@ -43,6 +80,11 @@
 
         <div id="results-screen" class="screen hidden">
             <h2>Quiz Results</h2>
+            <div class="results-buttons">
+                <button id="retake-btn" class="primary-btn">Take New Test</button>
+                <button id="results-progress-btn" class="primary-btn">View Progress</button>
+                <button id="results-logout-btn" class="secondary-btn">Logout</button>
+            </div>
             <div id="score-container">
                 <p>Your Score: <span id="score">0</span>%</p>
                 <p>Time Taken: <span id="time-taken">0</span></p>
@@ -53,6 +95,8 @@
             </div>
         </div>
     </div>
+    <script src="userManager.js"></script>
+    <script src="scoreHistory.js"></script>
     <script src="script.js"></script>
 </body>
 </html> 
