@@ -11,9 +11,6 @@ Thumbs.db
 *.swp
 *.swo
 
-# Node modules if you decide to use npm later
-node_modules/
+# Python scripts
+merge.py
 
-# Environment files if needed later
-.env
-.env.local 
