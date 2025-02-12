@@ -114,10 +114,8 @@ button:disabled {
 }
 
 .missed-question .user-answer {
-    color: #d32f2f;
     margin: 1rem 0;
     padding: 0.5rem 1rem;
-    background-color: #ffebee;
     border-radius: 4px;
 }
 
@@ -126,7 +124,6 @@ button:disabled {
     font-weight: 500;
     margin: 1rem 0;
     padding: 0.5rem 1rem;
-    background-color: #e8f5e9;
     border-radius: 4px;
 }
 
@@ -606,34 +603,37 @@ button:disabled {
     background-color: #e9ecef;
 }
 
-/* Style for the user's answer when correct */
-.missed-question .user-answer.correct {
-    color: #2e7d32;
+/* Style for unanswered questions */
+.missed-question .user-answer.not-answered {
+    color: white;
+    background-color: #ffebee;  /* Light red background */
     margin: 1rem 0;
     padding: 0.5rem 1rem;
-    background-color: #e8f5e9;
     border-radius: 4px;
 }
 
-/* Style for the user's answer when incorrect */
-.missed-question .user-answer.incorrect {
-    color: #d32f2f;
+/* Style for incorrect answers */
+.missed-question .user-answer {
+    color: white;
+    background-color: #d32f2f;  /* Red background */
     margin: 1rem 0;
     padding: 0.5rem 1rem;
-    background-color: #ffebee;
     border-radius: 4px;
-}
-
-/* Add a label before the user's answer */
-.missed-question .user-answer::before {
-    content: "Your answer: ";
-    color: #666;
-    font-weight: normal;
 }
 
 /* Style for the correct answer section */
+.missed-question .correct-answer {
+    color: white;
+    background-color: #2e7d32;  /* Green background */
+    font-weight: 500;
+    margin: 1rem 0;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+}
+
+/* Style for the labels */
+.missed-question .user-answer::before,
 .missed-question .correct-answer::before {
-    content: "Correct answer: ";
-    color: #666;
+    color: white;
     font-weight: normal;
 } 

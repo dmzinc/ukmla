@@ -343,15 +343,34 @@ function showMissedQuestions() {
         if (userAnswers[index] !== correctAnswerIndex) {
             const div = document.createElement('div');
             div.className = 'missed-question';
-            div.innerHTML = `
-                <p><strong>Question ${index + 1}:</strong> ${question.question}</p>
-                <p>Your answer: ${question.options[userAnswers[index]] || 'Not answered'}</p>
-                <p class="correct-answer">Correct answer: ${question.options[correctAnswerIndex]}</p>
-                <div class="justification">
-                    <strong>Explanation:</strong><br>
-                    ${question.justification}
-                </div>
-            `;
+            
+            // Create the question text
+            const questionText = document.createElement('p');
+            questionText.className = 'question-text';
+            questionText.innerHTML = `<strong>Question ${index + 1}:</strong> ${question.question}`;
+            
+            // Create user's answer element
+            const userAnswer = document.createElement('p');
+            userAnswer.className = userAnswers[index] === undefined ? 
+                'user-answer not-answered' : 'user-answer';
+            userAnswer.textContent = 'Your answer: ' + (userAnswers[index] === undefined ? 
+                'Not answered' : question.options[userAnswers[index]]);
+            
+            // Create correct answer element
+            const correctAnswer = document.createElement('p');
+            correctAnswer.className = 'correct-answer';
+            correctAnswer.textContent = 'Correct answer: ' + question.options[correctAnswerIndex];
+            
+            // Create explanation element
+            const explanation = document.createElement('div');
+            explanation.className = 'explanation';
+            explanation.innerHTML = `<strong>Explanation:</strong><br>${question.justification}`;
+            
+            div.appendChild(questionText);
+            div.appendChild(userAnswer);
+            div.appendChild(correctAnswer);
+            div.appendChild(explanation);
+            
             container.appendChild(div);
         }
     });
