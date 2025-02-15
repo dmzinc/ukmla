@@ -1204,6 +1204,1254 @@
       ],
       "correct_answer": "D",
       "justification": "The spore formation of Clostridioides difficile makes it particularly difficult to destroy. C. difficile spores are highly resistant to environmental stresses, including heat, disinfectants, and antibiotics, and can persist on surfaces for long periods, increasing the risk of transmission."
-    }
+    },
+  {
+    "question": "A 25 year old man has had penile pain for two days. His most recent sexual intercourse was one week ago. There are multiple tender ulcers on his preputial skin. His penile and scrotal skin does not have any other abnormality. Which is the most likely diagnosis?",
+    "options": [
+      "A) Genital warts",
+      "B) Gonorrhoea",
+      "C) Herpes simplex",
+      "D) Lymphogranuloma venereum",
+      "E) Syphilis"
+    ],
+    "correct_answer": "C",
+    "justification": "Based on the given information, the most likely diagnosis is Herpes simplex. The presence of multiple tender ulcers on the preputial skin following recent sexual intercourse is suggestive of herpes simplex virus infection."
+  },
+  {
+    "question": "A 60 year old man has increasing left hip pain. It is worse after exercise and occasionally wakes him at night. He has stiffness in the mornings that lasts for about 10 minutes. He has hypertension treated with ramipril, but is otherwise in good health. He has reduced internal rotation on passive movement. This also elicits pain. Which is the most appropriate initial treatment for his pain?",
+    "options": [
+      "A) Celecoxib",
+      "B) Codeine phosphate",
+      "C) Naproxen",
+      "D) Paracetamol",
+      "E) Tramadol"
+    ],
+    "correct_answer": "C",
+    "justification": "Oral non-steroidal anti-inflammatory drugs (NSAIDs) such as naproxen are recommended as initial pharmacotherapy for hip osteoarthritis."
+  },
+  {
+    "question": "An 18 year old woman is 19 weeks pregnant. An ultrasound scan shows her baby has anencephaly. She wants to discuss her options with regards to termination of pregnancy. When will termination of this pregnancy be legally permitted?",
+    "options": [
+      "A) After spontaneous fetal death",
+      "B) At any time during the pregnancy",
+      "C) Before 20 weeks' gestation",
+      "D) Before 24 weeks' gestation",
+      "E) Before 28 weeks' gestation"
+    ],
+    "correct_answer": "B",
+    "justification": "In the UK, anencephaly is a fetal anomaly that inevitably results in the death of the fetus, making termination legal at any time during pregnancy."
+  },
+  {
+    "question": "A 65 year old man has had constant back and right knee pain for 6 months, partially relieved by analgesia. He is an ex-smoker. He is otherwise well. Investigations show elevated alkaline phosphatase and sclerotic areas in the lower right femur and lumbar spine L3. Which is the most likely diagnosis?",
+    "options": [
+      "A) Hyperparathyroidism",
+      "B) Metastatic carcinoma of prostate",
+      "C) Metastatic small cell carcinoma of lung",
+      "D) Myeloma",
+      "E) Paget's disease of bone"
+    ],
+    "correct_answer": "E",
+    "justification": "The patient’s history, investigations, and imaging findings suggest Paget’s disease of bone, which is supported by elevated alkaline phosphatase and bone scan results."
+  },
+  {
+    "question": "A 14 year old girl has had crampy abdominal pain and poor appetite for 24 hours. She has also had a sore throat for 3 days. Her temperature is 38.5°C. There is cervical lymphadenopathy and tenderness in the right iliac fossa. Which is the most likely diagnosis?",
+    "options": [
+      "A) Acute appendicitis",
+      "B) Crohn's ileitis",
+      "C) Meckel's diverticulum",
+      "D) Mesenteric adenitis",
+      "E) Ovarian cyst"
+    ],
+    "correct_answer": "D",
+    "justification": "Mesenteric adenitis is suggested by the combination of right iliac fossa pain, fever, cervical lymphadenopathy, and a recent sore throat."
+  },
+  {
+    "question": "The links between deprivation and health inequalities are well evidenced and widely accepted, but there are a number of explanations for that association. One explanation proposes that ill health determines people's social class. Which type of explanation of health inequality is this?",
+    "options": [
+      "A) Artefact",
+      "B) Cultural/behavioural",
+      "C) Idealist",
+      "D) Materialist",
+      "E) Social selection/mobility"
+    ],
+    "correct_answer": "E",
+    "justification": "Social selection/mobility proposes that ill health can limit social mobility due to decreased ability to work, leading to lower social class and contributing to health inequalities."
+  },
+    {
+      "question": "A 19 year old man has 1 day of fever, muscle stiffness, palpitations and difficulty breathing. He has a psychotic depression. He has been taking fluoxetine for 6 weeks and started taking risperidone 1 week ago. He is agitated and distressed. His temperature is 39.8°C, pulse rate 114 bpm, BP 172/89 mmHg and respiratory rate 30 breaths per minute. Chest examination is otherwise normal. There is increased tone globally; there are no other neurological abnormalities. Which test is most likely to help confirm the diagnosis?",
+      "options": [
+        "A) CT scan of head",
+        "B) ECG",
+        "C) EEG",
+        "D) Lumbar puncture",
+        "E) Serum creatine kinase"
+      ],
+      "correct_answer": "E",
+      "justification": "The symptoms suggest neuroleptic malignant syndrome (NMS), a life-threatening reaction to antipsychotics. Serum creatine kinase (CK) is elevated in NMS due to rhabdomyolysis."
+    },
+    {
+      "question": "A 43 year old man is involved in a low-speed road traffic collision. Following this, he develops pain in his lower back that remains troublesome several months later. The pain is worse after activity and relieved by rest. He has an exaggerated lumbar lordosis with a palpable depression above L5. The range of movement of his spine is grossly normal. Neurological examination of his lower limbs is also normal. Which is the most likely diagnosis?",
+      "image": "Screenshot_13-2-2025_201516_.jpeg",
+      "options": [
+        "A) Cauda equina syndrome",
+        "B) Compression fracture",
+        "C) Herniated intervertebral disc",
+        "D) Spondylolisthesis",
+        "E) Spondylosis"
+      ],
+      "correct_answer": "D",
+      "justification": "Spondylolisthesis, where one vertebra slips out of line with the one above, is suggested by the lumbar lordosis and palpable depression above L5."
+    },
+    {
+      "question": "A 30 year old man goes out gambling. One night he makes a profit of £100,000, and the following night he loses £150,000. Which psychological process most likely occurred on the first night that led to his risk-taking on the following night?",
+      "options": [
+        "A) Classical conditioning",
+        "B) Disinhibition",
+        "C) Modelling",
+        "D) Positive reinforcement",
+        "E) Social learning"
+      ],
+      "correct_answer": "D",
+      "justification": "Winning £100,000 reinforced the gambling behaviour, making him more likely to continue gambling."
+    },
+    {
+      "question": "An 85 year old woman has a breast lump. She has hypertension, heart failure and a previous stroke. She takes bisoprolol, ramipril, furosemide, aspirin and atorvastatin. Her pulse is 76 bpm irregularly irregular and BP 105/70 mmHg. There is a 2.5 cm mobile, firm, non-tender swelling in the upper outer quadrant of her breast. A biopsy confirms infiltrating ductal carcinoma, ER positive, HER2 negative. She is started on an aromatase inhibitor and bisphosphonate. Which is the most appropriate next treatment to offer?",
+      "options": [
+        "A) Chemotherapy",
+        "B) Immunotherapy",
+        "C) No additional treatment",
+        "D) Radiotherapy",
+        "E) Surgery"
+      ],
+      "correct_answer": "C",
+      "justification": "Given her age and comorbidities, surgery is not appropriate. Aromatase inhibitors are effective for ER-positive breast cancer, and no further treatment is necessary."
+    },
+    {
+      "question": "A 40 year old primigravid woman, at 28 weeks' gestation, is admitted with a seizure. She had epigastric pain and blurred vision preceding the seizure. Her BP is 155/105 mmHg. Reflexes are brisk with two beats of ankle clonus. Her urinalysis shows protein 2+. Which intravenous drug is the most appropriate immediate treatment?",
+      "options": [
+        "A) Diazepam",
+        "B) Hydralazine",
+        "C) Levetiracetam",
+        "D) Magnesium sulfate",
+        "E) Phenytoin"
+      ],
+      "correct_answer": "D",
+      "justification": "The patient has eclampsia. Magnesium sulfate is the first-line treatment to prevent further seizures."
+    },
+    {
+      "question": "A 29 year old woman attends her GP with a heavy sensation in her vagina when exercising. She is aware of a bulge in her vagina, sometimes associated with a desire to void urine. She had a vaginal delivery 2 years ago. There is some laxity of the anterior vaginal wall, but this does not descend to the introitus on straining. Urine culture is negative. Which is the most appropriate management plan?",
+      "options": [
+        "A) Oxybutynin hydrochloride",
+        "B) Pelvic floor exercises",
+        "C) Refer for urodynamic testing",
+        "D) Refer to urogynaecology clinic",
+        "E) Ultrasound scan of pelvis"
+      ],
+      "correct_answer": "B",
+      "justification": "Pelvic floor exercises are first-line treatment for mild pelvic organ prolapse."
+    },
+    {
+      "question": "A 19 month old girl has been able to sit unsupported for 1 month. She can speak 2 words and has just started to feed herself using her fingers. She was born at 30 weeks' gestation. Which is the best description of her current development?",
+      "options": [
+        "A) Fine motor delay",
+        "B) Gross developmental delay",
+        "C) Gross motor delay",
+        "D) Mild developmental delay",
+        "E) Normal development"
+      ],
+      "correct_answer": "C",
+      "justification": "She has delayed gross motor development, as sitting unsupported should occur by 7 months."
+    },
+    {
+      "question": "A 37 year old woman who is 10 weeks pregnant has had excessive vomiting for 1 week. The fundal height is consistent with 16 weeks' gestation. Her BP is 180/110 mmHg. Which is the most likely diagnosis underlying the clinical presentation?",
+      "options": [
+        "A) Gastroenteritis",
+        "B) Missed abortion",
+        "C) Molar pregnancy",
+        "D) Pre-eclampsia",
+        "E) Pregnancy-induced hypertension"
+      ],
+      "correct_answer": "C",
+      "justification": "Molar pregnancy presents with an excessive uterine size for gestational age and exaggerated pregnancy symptoms."
+    },
+    {
+      "question": "A 29 year old woman has pain and morning stiffness in her finger and wrist joints. This improves during the day and after active movement. She has had recurrent mouth ulcers for the last 2 years. She had an episode of pleuritic chest pain 6 months ago which resolved without seeking help. Her BP is 128/85 mmHg. She has no warmth or tenderness in her hands. Urinalysis shows protein 1+, blood 1+. Which is the most likely diagnosis?",
+      "options": [
+        "A) Behçet's disease",
+        "B) Reactive arthritis",
+        "C) Rheumatoid arthritis",
+        "D) Sjögren's syndrome",
+        "E) Systemic lupus erythematosus"
+      ],
+      "correct_answer": "E",
+      "justification": "The combination of arthritis, mouth ulcers, pleuritic pain, and renal involvement suggests systemic lupus erythematosus."
+    },
+    {
+      "question": "A 66 year old man has lethargy, cough, and persistent right upper quadrant pain. He has smoked for 50 years. He has an enlarged liver. Liver biopsy reveals adenocarcinoma, positive for thyroid transcription factor-1. Which is the most likely route by which this tumour spread to the liver?",
+      "options": [
+        "A) Direct infiltration",
+        "B) Haematogenous spread",
+        "C) Lymphatic spread",
+        "D) Pagetoid spread",
+        "E) Transcoelomic spread"
+      ],
+      "correct_answer": "B",
+      "justification": "Lung cancer commonly spreads to the liver via haematogenous spread."
+    },
+      {
+        "question": "A 63 year old woman has two days of facial swelling, early morning facial discomfort and fullness. Nine months ago she was treated with chemotherapy and radiotherapy for lung cancer. Her jugular venous pressure is elevated and non-pulsatile. Her face, neck, and arms are swollen, and there are prominent veins across her chest. Which structure is most likely to be occluded?",
+        "options": [
+          "A) Axillary vein",
+          "B) Internal jugular vein",
+          "C) Right atrium",
+          "D) Subclavian vein",
+          "E) Superior vena cava"
+        ],
+        "correct_answer": "E",
+        "justification": "Superior vena cava is the most likely structure to be occluded. The patient’s symptoms of facial swelling, fullness, and prominent chest veins are consistent with superior vena cava syndrome, which can occur when the SVC is compressed or obstructed. The previous history of lung cancer and recent chemotherapy and radiotherapy suggest the possibility of SVC obstruction due to malignancy."
+      },
+      {
+        "question": "A 17 year old girl attends her GP with her mother. She has had severe headaches, stomach aches and has vomited four times over 2 days. She was invited to a close friend's birthday party but refused to attend. She is extremely shy and isolated, and has very few friends. She is always worried that others criticise her, is extremely sensitive to any rejection, and is very attached to her mother. Which personality disorder is she most likely to have?",
+        "options": [
+          "A) Avoidant",
+          "B) Dependent",
+          "C) Paranoid",
+          "D) Schizoid",
+          "E) Schizotypal"
+        ],
+        "correct_answer": "A",
+        "justification": "The features described are consistent with avoidant personality disorder, which is characterised by social inhibition, feelings of inadequacy, and hypersensitivity to criticism. People with this disorder tend to avoid social situations and have few close relationships, often relying heavily on a single attachment figure."
+      },
+      {
+        "question": "A 45 year old man attends his GP with right knee pain. He has had no previous problems with his knee before. He has had previous episodes of severe pain in his toe and painful swelling of the dorsum of the feet. There is no history of trauma. He drinks 20 pints of beer a week. His temperature is 37.5°C, and his knee is warm, diffusely tender and very painful to flex. What is the most likely diagnosis?",
+        "options": [
+          "A) Gout",
+          "B) Osteoarthritis",
+          "C) Rheumatoid arthritis",
+          "D) Septic arthritis",
+          "E) Torn meniscal cartilage"
+        ],
+        "correct_answer": "A",
+        "justification": "Based on the presentation, the most likely diagnosis is gout. The presence of a warm, diffusely tender and very painful knee, along with a previous history of acute inflammation in the feet and alcohol excess, is consistent with gout."
+      },
+      {
+        "question": "A 68 year old woman has noticed a lump in her neck for 2 months. She otherwise feels well. There are small lymph nodes palpable in the cervical, axillary, and inguinal regions. Investigations show a high lymphocyte count and blood film reveals increased lymphocytes with sparse cytoplasm. Which is the most likely diagnosis?",
+        "options": [
+          "A) Acute lymphoblastic leukaemia",
+          "B) Chronic lymphocytic leukaemia",
+          "C) Infectious mononucleosis",
+          "D) Myeloma",
+          "E) Non-Hodgkin's lymphoma"
+        ],
+        "correct_answer": "B",
+        "justification": "The most likely diagnosis is Chronic Lymphocytic Leukaemia, which is the most common lymphoproliferative disorder in older adults. The patient’s age, lymphocytosis, and blood film findings suggest this diagnosis."
+      },
+      {
+        "question": "A 15 year old boy has had severe anorexia nervosa for one year. He is not currently acutely physically unwell. His weight is 75% of the expected weight for his height, age, and sex. Which is the most appropriate therapy?",
+        "options": [
+          "A) Cognitive-analytic therapy",
+          "B) Cognitive-behaviour therapy",
+          "C) Family therapy",
+          "D) Non-directive counselling",
+          "E) Psychodynamic psychotherapy"
+        ],
+        "correct_answer": "C",
+        "justification": "Family therapy is the first-line treatment for children and adolescents with anorexia nervosa, as it focuses on the family’s role in recovery and improving communication."
+      },
+      {
+        "question": "A randomised controlled trial was designed to compare a new drug with a placebo. There were 120 patients in the treatment group, of which 12 patients died within 2 years. There were 240 patients in the control group, of which 48 patients died within 2 years. Which is the number needed to treat to avoid one death within 2 years?",
+        "options": [
+          "A) 2",
+          "B) 4",
+          "C) 8",
+          "D) 10",
+          "E) 20"
+        ],
+        "correct_answer": "D",
+        "justification": "The absolute risk reduction (ARR) is calculated as (48/240 - 12/120) = 0.1. The number needed to treat (NNT) is the reciprocal of ARR, which is 1/0.1 = 10."
+      },
+      {
+        "question": "A 28 year old woman is elated in mood. She has not slept for 7 days and has been attending all-night parties. She is sexually disinhibited and believes that she is a member of the royal family. She was previously fit and well and has no past psychiatric history. A urine drug screen is negative. Which is the most appropriate medication to prescribe?",
+        "options": [
+          "A) Diazepam",
+          "B) Lithium carbonate",
+          "C) Olanzapine",
+          "D) Sodium valproate",
+          "E) Zuclopenthixol decanoate"
+        ],
+        "correct_answer": "C",
+        "justification": "Olanzapine is an appropriate choice for managing acute mania as it has both antipsychotic and sedative effects."
+      },
+      {
+        "question": "A 62 year old woman is seen at home because her legs feel 'wobbly'. She has been incontinent of urine once. She has been experiencing increasing pain in her mid-back over the previous fortnight. She is being treated for metastatic breast cancer with anastrozole. Examination reveals slight weakness in hip flexion and knee extension bilaterally, brisk tendon reflexes, and tenderness over the 10th thoracic vertebra. Which is the most appropriate next course of action?",
+        "options": [
+          "A) Admission to the local hospice",
+          "B) Advise bed rest until pain resolves",
+          "C) Arrange domiciliary physiotherapy",
+          "D) Emergency admission for MRI scan of spine",
+          "E) Give analgesia and re-examine her in the morning"
+        ],
+        "correct_answer": "D",
+        "justification": "The patient's symptoms suggest spinal cord compression, a medical emergency requiring urgent MRI for diagnosis and prompt management."
+      },
+      {
+        "question": "A 3 year old boy has had diarrhoea for 6 months. He has 4-5 watery stools per day that contain visible pieces of sweetcorn and other vegetables. He is thriving and developing well. Which is the most likely diagnosis?",
+        "options": [
+          "A) Coeliac disease",
+          "B) Gastroenteritis",
+          "C) Inflammatory bowel disease",
+          "D) Lactose intolerance",
+          "E) Toddler diarrhoea"
+        ],
+        "correct_answer": "E",
+        "justification": "Toddler diarrhoea is a common cause of chronic, non-bloody diarrhoea in young children. It is usually self-limiting and associated with diet rather than a pathological condition."
+      },
+        {
+          "question": "A mother gives her 6 month old girl formula milk for the first time. Within minutes, the baby vomits and develops an erythematous rash over her lips and chin, which takes 1 hour to subside. The following week, the mother drips a couple of drops of formula milk onto the baby's arm. The baby develops an erythematous rash over the arm within 1 minute. The mother is returning to work and does not wish to continue breastfeeding or expressing milk. Which is the best management option?",
+          "options": [
+            "A) Goat's milk",
+            "B) Hydrolysed formula",
+            "C) Lactose-free formula",
+            "D) Latex-free teat",
+            "E) Soya milk"
+          ],
+          "correct_answer": "B",
+          "justification": "The best management option is hydrolyzed formula. These symptoms suggest a potential allergic reaction to cow's milk protein, prompting the need for an alternative formula that is less allergenic. Hydrolyzed formula contains proteins that are broken down into smaller fragments, making them less likely to trigger an allergic response compared to intact cow's milk protein."
+        },
+        {
+          "question": "A 28 year old woman is admitted with a sudden onset of abdominal pain and vaginal bleeding. She is 38 weeks pregnant. Her pulse rate is 120 bpm and BP 110/80 mmHg. She has a tender abdomen. The fetal heart rate is 170 bpm. Which is the most likely diagnosis?",
+          "options": [
+            "A) Necrosis of a fibroid",
+            "B) Placenta praevia",
+            "C) Placental abruption",
+            "D) Pre-term labour",
+            "E) Uterine rupture"
+          ],
+          "correct_answer": "C",
+          "justification": "The most likely diagnosis is placental abruption. Placental abruption occurs when the placenta separates prematurely from the uterine wall before delivery, leading to maternal and fetal complications including abdominal pain, vaginal bleeding, and fetal distress."
+        },
+        {
+          "question": "A 52 year old woman has had two days of worsening confusion. She has chronic liver disease secondary to alcohol and has been abstinent for six months. She has had a previous admission due to acute hepatic encephalopathy. She is disoriented in time and place and is unable to hold a conversation. Her temperature is 37.1°C, pulse 90 bpm, and BP 119/80 mmHg. She has a distended abdomen, widespread spider naevi, and a flapping tremor. She is given intravenous vitamin supplements. Which is the most appropriate additional management of her acute confusion?",
+          "options": [
+            "A) Ciprofloxacin",
+            "B) Furosemide",
+            "C) Lactulose",
+            "D) Lorazepam",
+            "E) Restrict dietary protein intake to 60 g/day"
+          ],
+          "correct_answer": "C",
+          "justification": "The most appropriate additional management of her acute confusion would be Lactulose. The patient is exhibiting signs of hepatic encephalopathy due to her chronic liver disease, which can cause confusion, disorientation, and other neurological symptoms."
+        },
+        {
+          "question": "A 25 year old nulliparous woman with an uncomplicated pregnancy attends for induction of labour at 41 weeks. Examination reveals the head is engaged; the cervix is posterior, 2 cm long and the os is closed. Which is the most appropriate method of induction?",
+          "options": [
+            "A) Endovaginal prostaglandin gel",
+            "B) Membrane sweep",
+            "C) Oxytocin infusion",
+            "D) Oxytocin infusion and amniotomy",
+            "E) Progesterone suppository"
+          ],
+          "correct_answer": "A",
+          "justification": "Endovaginal prostaglandin gel is the most appropriate method of induction in this scenario. The woman is at term and the head is engaged, indicating that the fetal head is in the pelvis. Cervical assessment reveals that the cervix is unfavourable for induction."
+        },
+        {
+          "question": "A 60 year old man believes that the government has been monitoring him for 10 years, despite him repeatedly writing to the Prime Minister. His beliefs are present whatever his mood. He has never heard voices when nobody else is around. Which is the most likely diagnosis?",
+          "options": [
+            "A) Anankastic personality disorder",
+            "B) Delusional disorder",
+            "C) Depression with psychosis",
+            "D) Paranoid schizophrenia",
+            "E) Schizoid personality disorder"
+          ],
+          "correct_answer": "B",
+          "justification": "The most likely diagnosis is delusional disorder. The delusions have not escalated or changed for a significant period and are considered to be 'non-bizarre' i.e. situations that are not real but also not impossible."
+        },
+        {
+          "question": "A 75 year old man attends his GP with fatigue, blurred vision, and poor concentration for 4 months. He has had type 2 diabetes for 30 years and takes metformin (1 g twice daily). He lives alone and reports having a well-balanced diet. Investigations: Haemoglobin 98 g/L (130–175), Mean cell volume (MCV) 115 fL (80–96), Serum vitamin B12 90 ng/L (160–925). Which is the most appropriate initial treatment for this patient?",
+          "options": [
+            "A) Advise dietary modifications to include more vitamin B12-rich foods",
+            "B) Start intramuscular hydroxocobalamin 1 mg every 2 months",
+            "C) Start intramuscular hydroxocobalamin 1 mg on alternate days",
+            "D) Start oral cyanocobalamin 1 mg once daily",
+            "E) Start oral cyanocobalamin 150 micrograms once daily"
+          ],
+          "correct_answer": "C",
+          "justification": "This patient has vitamin B12 deficiency, likely exacerbated by long-term metformin use, which can interfere with B12 absorption. Initial treatment for vitamin B12 deficiency, especially in the presence of neurological symptoms, is intramuscular hydroxocobalamin."
+        },
+        
+          {
+            "question": "A 94 year old woman has a deep gnawing pain in her left arm. She has had 10 kg weight loss in the past year. Her temperature is 37.3°C. She has localised tenderness over the left upper arm. Investigations: X-ray left arm (see image). Which is the most likely cause of her pain?",
+            "image":"Screenshot_15-2-2025_115423_.jpeg",
+            "options": [
+              "A) Metastatic carcinoma",
+              "B) Osteomyelitis",
+              "C) Osteoporosis",
+              "D) Osteosarcoma",
+              "E) Paget's disease"
+            ],
+            "correct_answer": "A",
+            "justification": "The most likely cause of the 94-year-old woman’s pain in her left arm is metastatic carcinoma. She has lost weight and the site of the abnormality, i.e. proximal humerus, is a common site for metastasis. The X-ray is consistent with metastatic carcinoma."
+          },
+          {
+            "question": "A 45 year old man has a 5 month history of chronic sinusitis and unresolving headaches. When he bends forward, purulent fluid pours from his nose. Which anatomical structure is most likely to be the source of this fluid?",
+            "options": [
+              "A) Anterior ethmoid air cells",
+              "B) Frontal sinus",
+              "C) Lacrimal sac",
+              "D) Maxillary sinus",
+              "E) Posterior ethmoid air cells"
+            ],
+            "correct_answer": "D",
+            "justification": "The patient’s symptoms suggest chronic maxillary sinusitis; when the patient bends forward, gravity causes the accumulated pus or mucus to drain out through the osteomeatal complex into the nasal cavity. The anterior ethmoids and the frontal sinus also drain through the OM complex, but the maxilla is the most commonly involved."
+          },
+          {
+            "question": "A 6 hour old boy, born at term, is grunting and cyanosed. He has been struggling to feed. His temperature is 36.8°C, pulse rate 190 bpm (120-160), respiratory rate 60 breaths per minute (30-60) and oxygen saturation 82% breathing air. His oxygen saturation does not improve significantly breathing high flow oxygen. He has a loud single second heart sound and a systolic murmur. He is treated with intravenous fluids and antibiotics. Which is the most appropriate next medication?",
+            "options": [
+              "A) Alprostadil",
+              "B) Ibuprofen",
+              "C) Indometacin",
+              "D) Sildenafil",
+              "E) Surfactant"
+            ],
+            "correct_answer": "A",
+            "justification": "The most appropriate next medication is Alprostadil. These clinical findings are consistent with congenital heart disease. The loud single second heart sound and systolic murmur suggest a possible ventricular septal defect (VSD) or patent ductus arteriosus (PDA). The grunting and cyanosis, along with the low oxygen saturation that does not improve with high flow oxygen, suggest that the baby is experiencing significant respiratory distress. Alprostadil, a prostaglandin E1 analog, helps maintain ductal patency and allows adequate systemic perfusion until definitive management, such as surgical correction or catheter-based intervention, can be undertaken."
+          },
+          {
+            "question": "A 5 year old girl is brought to her GP with a rash over her arms that has been gradually worsening over the past month. Her mother reports that she seems more tired than usual. She has a petechial rash over both forearms, with some petechiae over her left anterior chest. She is pale and has hepatosplenomegaly. Which is the most appropriate management option?",
+            "options": [
+              "A) Administer intramuscular benzylpenicillin sodium and send her to hospital in an ambulance",
+              "B) Prescribe a course of prednisolone and review in 3 days",
+              "C) Refer her for a routine appointment in the general paediatric clinic",
+              "D) Refer her urgently to the paediatric assessment unit",
+              "E) Take a full blood count and blood film and see her within 48 h"
+            ],
+            "correct_answer": "D",
+            "justification": "The most appropriate management option is to refer her urgently to the pediatric assessment unit. The presence of a petechial rash, hepatosplenomegaly, and tiredness in a child should raise suspicion of a serious underlying condition, such as leukaemia or other haematological disorders. Urgent referral to the paediatric assessment unit is necessary to ensure prompt diagnosis and treatment."
+          },
+          
+            {
+              "question": "A 62 year old man attends the outpatients clinic with his wife. He has had reduced energy and lack of interest in his work and poor sleep for six weeks. He has lost weight. He has benign prostatic enlargement. There is evidence of self-neglect and reduced eye contact. What is the single most appropriate drug treatment?",
+              "options": [
+                "A) Benzodiazepine",
+                "B) Selective serotonin re-uptake inhibitor",
+                "C) Serotonin noradrenaline re-uptake inhibitor",
+                "D) Tricyclic antidepressant",
+                "E) Z-drug"
+              ],
+              "correct_answer": "B",
+              "justification": "The most appropriate drug treatment is a selective serotonin re-uptake inhibitor (SSRI), as this class of drugs is commonly used for treating depression. Tricyclic antidepressants and serotonin noradrenaline re-uptake inhibitors (SNRIs) may have more side effects in older patients. Benzodiazepines and Z-drugs are not appropriate for long-term management."
+            },
+            {
+              "question": "A doctor is approached by their neighbour who is aware that another person on their street has been admitted to the ward the doctor is working on. They wish to know how the patient is doing. The doctor is aware the patient is stable but the prognosis is uncertain. Which is the most appropriate response by the doctor?",
+              "options": [
+                "A) They can confirm they are caring for him and that he is unwell but stable",
+                "B) They can confirm they are caring for him but cannot comment on his condition",
+                "C) They can confirm they are caring for him and that he is making good progress",
+                "D) They cannot confirm they are caring for him but have heard he is unwell but stable",
+                "E) They cannot confirm who is caring for him and cannot comment on his condition"
+              ],
+              "correct_answer": "E",
+              "justification": "It is essential for doctors to maintain patient confidentiality and not disclose any information to individuals not involved in the patient's care. The doctor should not even confirm that they are treating the patient, as this would be a breach of confidentiality."
+            },
+            {
+              "question": "A 40 year old woman has had right-sided facial weakness for the past 12 hours. She has weakness of all of the muscles on the right side of her face. There is no limb weakness and speech is normal. Examination of her ears is normal. Which is the most appropriate drug treatment?",
+              "options": [
+                "A) Aciclovir",
+                "B) Aspirin",
+                "C) Cinnarizine",
+                "D) None",
+                "E) Prednisolone"
+              ],
+              "correct_answer": "E",
+              "justification": "The patient has symptoms of Bell’s palsy, an idiopathic facial nerve palsy. The most appropriate treatment within 72 hours of symptom onset is a short course of prednisolone to reduce inflammation and improve recovery."
+            },
+            {
+              "question": "A 35 year old woman with gestational hypertension is induced at 40 weeks. She has a normal vaginal delivery, but following delivery of the placenta she bleeds heavily. Which is the most appropriate initial management?",
+              "options": [
+                "A) Carboprost",
+                "B) Ergometrine",
+                "C) Oxytocin",
+                "D) Misoprostol",
+                "E) Tranexamic acid"
+              ],
+              "correct_answer": "C",
+              "justification": "Oxytocin is the first-line treatment for postpartum haemorrhage following delivery of the placenta, as it contracts the uterus and reduces bleeding. Ergometrine is contraindicated in hypertension, and tranexamic acid is used as an adjunct rather than a primary treatment."
+            },
+            {
+              "question": "A 19 year old man attends his GP with two days of a burning sensation when passing urine, urethral discomfort, and a penile discharge. This developed a week after he had unprotected sex with a new female partner. He declines a referral to the genito-urinary medicine (GUM) clinic. Which is the most appropriate treatment?",
+              "options": [
+                "A) Doxycycline",
+                "B) Ciprofloxacin and metronidazole",
+                "C) Fluconazole and penicillin V",
+                "D) Metronidazole and fluconazole",
+                "E) Penicillin V and azithromycin"
+              ],
+              "correct_answer": "A",
+              "justification": "The most likely diagnosis is chlamydial urethritis. The first-line treatment is doxycycline. Azithromycin is an alternative. A first-void urine sample for nucleic acid amplification testing (NAAT) should be sent, and the patient should notify his partner for testing and treatment."
+            },
+            {
+              "question": "A 9 month old boy is brought to his GP with 4 days of coryzal symptoms, intermittent fever, coughing, and wheezing. He has been taking smaller feeds for the past 2 days and was unsettled last night. He has adequate oral intake. His mother has given him paracetamol suspension. He is alert, there is no rash, and he is drooling. His temperature is 38.2°C, capillary refill is 1 second, pulse rate 148 bpm (80-160), respiratory rate 60 breaths per minute (30-60), and oxygen saturation 97% in air. He has widespread wheeze and crackles, and his ears and throat are normal. Which is the most appropriate next step in management?",
+              "options": [
+                "A) Admission to paediatric ward",
+                "B) Prescribe oral doxycycline",
+                "C) Prescribe oral co-amoxiclav",
+                "D) Reassure and give safety netting advice",
+                "E) Give nebulised salbutamol and review"
+              ],
+              "correct_answer": "D",
+              "justification": "The presentation is consistent with bronchiolitis, which is usually viral. Most cases are managed with reassurance and safety netting advice unless there are severe symptoms or dehydration. Antibiotics are not indicated."
+            },
+            {
+              "question": "A 23 year old woman has barricaded herself with her baby in the bathroom, shouting that it is unsafe to come out because the house is infected. She thinks that someone is trying to kill her and her baby. Her mood has not been low at any stage. She is four days post-caesarean section, and her physical recovery has been uncomplicated. She was not on any medication during her pregnancy but drank 20 units of alcohol a week. She is orientated in time and place. Which is the most likely diagnosis?",
+              "options": [
+                "A) Alcohol withdrawal",
+                "B) Delirium",
+                "C) Obsessive-compulsive disorder",
+                "D) Post-natal depression",
+                "E) Puerperal psychosis"
+              ],
+              "correct_answer": "E",
+              "justification": "Puerperal psychosis is a severe mental illness occurring in the weeks following childbirth. It presents with delusions, hallucinations, and paranoia. Rapid intervention is required for the safety of both mother and baby."
+            },
+            {
+              "question": "A 20 year old woman seeks contraceptive advice. She had unprotected sexual intercourse four days ago. Which is the most appropriate method of contraception?",
+              "options": [
+                "A) Combined oral contraceptive pill",
+                "B) Copper-containing intrauterine device",
+                "C) Depot progestogen injection",
+                "D) High-dose oral progestogen",
+                "E) Intrauterine progestogen system (Mirena coil)"
+              ],
+              "correct_answer": "B",
+              "justification": "The most effective emergency contraception is a copper intrauterine device (IUD), which can be used up to 5 days post-unprotected intercourse. It is nearly 100% effective."
+            },
+            {
+              "question": "A 60 year old man feels tired but has no specific symptoms. He is a non-smoker and drinks eight units of alcohol per week. Investigations show a macrocytic anaemia with MCV 110 fL (80–96). Which additional investigation is most likely to help with the diagnosis?",
+              "options": [
+                "A) Erythrocyte sedimentation rate",
+                "B) Ferritin",
+                "C) Folate and vitamin B12",
+                "D) Haptoglobin",
+                "E) Protein electrophoresis"
+              ],
+              "correct_answer": "C",
+              "justification": "Macrocytic anaemia is most commonly due to vitamin B12 or folate deficiency. Checking these levels is the most appropriate next step."
+            },
+            {
+              "question": "A 15 year old girl has delayed puberty. She has always been short for her age (height <0.4th centile). She has not started her periods yet. She has no dysmorphic facial features but has a webbed neck and widely spaced nipples. She has no breast development. Which chromosomal abnormality is most likely to cause her clinical presentation?",
+              "options": [
+                "A) 45X0",
+                "B) 47XXX",
+                "C) 47XXY",
+                "D) Trisomy 13",
+                "E) Trisomy 21"
+              ],
+              "correct_answer": "A",
+              "justification": "Turner syndrome (45X0) causes short stature, primary amenorrhea, webbed neck, and widely spaced nipples."
+            },
+            
+              {
+                "question": "A 36 year old man is brought to the Emergency Department with a head injury after a fall from 10 metres. He was unconscious for a minute but recovered and seemed fully alert and orientated. Four hours later he becomes drowsy and confused, and then collapses. His GCS is 7/15. Which is the most likely diagnosis?",
+                "options": [
+                  "A) Cerebral contusions",
+                  "B) Compound depressed skull fracture",
+                  "C) Diffuse axonal injury",
+                  "D) Extradural haematoma",
+                  "E) Subarachnoid haemorrhage"
+                ],
+                "correct_answer": "D",
+                "justification": "A fall from a height with loss of consciousness and subsequent deterioration in consciousness level suggests an extradural haematoma. The initial lucid interval followed by a rapid deterioration is a classic feature. A cerebral contusion would be less likely to cause a lucid interval, and a subarachnoid haemorrhage or diffuse axonal injury may not be associated with a lucid interval."
+              },
+              {
+                "question": "A 3 year old boy has had multiple skin lesions on his chest wall for 2 weeks. The lesions are not itchy and he is otherwise well. He is apyrexial. Which is the most likely diagnosis?",
+                "image":"Screenshot_15-2-2025_121335_.jpeg",
+                "options": [
+                  "A) Chickenpox",
+                  "B) Discoid eczema",
+                  "C) Hand, foot and mouth disease",
+                  "D) Molluscum contagiosum",
+                  "E) Rubella"
+                ],
+                "correct_answer": "D",
+                "justification": "The most likely diagnosis is molluscum contagiosum. The lesions are typically painless, firm, dome-shaped, and have a central indentation. They are caused by a poxvirus and are usually self-limiting, resolving within 6 to 12 months."
+              },
+              {
+                "question": "A 42 year old woman has 6 months of a painful right shoulder. Her pain keeps her awake at night and is worsened by movement. She is otherwise well. There is no history of trauma. She has pain on shoulder abduction between 80° and 120°. Her shoulder movements are otherwise normal. There is no joint effusion. X-ray of right shoulder is normal. Which is the most likely diagnosis?",
+                "options": [
+                  "A) Cervical radiculopathy",
+                  "B) Osteoarthritis of glenohumeral joint",
+                  "C) Polymyalgia rheumatica",
+                  "D) Pseudogout",
+                  "E) Subacromial bursitis"
+                ],
+                "correct_answer": "E",
+                "justification": "The most likely diagnosis is subacromial bursitis. The symptoms of pain worsened by movement and difficulty sleeping, along with a normal X-ray and pain on shoulder abduction between 80° and 120°, are consistent with subacromial bursitis. The patient is describing a painful arc."
+              },
+              {
+                "question": "A 45 year old man has his BMI measured as part of a clinical trial for type 2 diabetes. Which is the most appropriate classification of data on this parameter?",
+                "options": [
+                  "A) Categorical",
+                  "B) Continuous",
+                  "C) Discrete",
+                  "D) Nominal",
+                  "E) Subjective"
+                ],
+                "correct_answer": "B",
+                "justification": "BMI is a continuous variable as it can take any value within a range of values (e.g., 18.5 to 50). Categorical variables are those that can be grouped into categories (e.g., blood type, race). Discrete variables are those that can only take certain values, usually integers (e.g., number of children). Nominal variables have no intrinsic order or ranking (e.g., hair colour, occupation)."
+              },
+              {
+                "question": "A 75 year old man with metastatic bowel cancer is dying. He is semi-conscious. His breathing is becoming increasingly rattly. He is being treated with morphine and haloperidol via a syringe driver. Which is the most appropriate drug management?",
+                "options": [
+                  "A) Amoxicillin",
+                  "B) Furosemide",
+                  "C) Hyoscine",
+                  "D) Levomepromazine",
+                  "E) Midazolam"
+                ],
+                "correct_answer": "C",
+                "justification": "The most appropriate drug management for a dying patient with increased respiratory secretions and rattly breathing is Hyoscine, an antimuscarinic medication commonly used in end-of-life care to reduce secretions by blocking muscarinic receptors."
+              },
+              
+                {
+                  "question": "A 67 year old man has had 24 hours of a painful swollen left knee. He went hill walking 3 days ago. His temperature is 37.6°C, pulse rate 104 bpm and BP 116/80 mmHg. His left knee is red, swollen and hot to touch. He has a reduced range of movement in his knee and is unable to weight bear due to pain. Investigations show elevated white cell count, platelets, neutrophils, and CRP. Which is the most appropriate next investigation?",
+                  "options": [
+                    "A) Aspiration of left knee joint for microscopy and culture",
+                    "B) MR imaging of left knee",
+                    "C) Serum anti-cyclic citrullinated peptide antibody",
+                    "D) Serum uric acid",
+                    "E) X-ray of left knee"
+                  ],
+                  "correct_answer": "A",
+                  "justification": "The most appropriate next investigation for this patient is aspiration of the left knee joint for microscopy and culture. The patient's presentation suggests an acutely infected joint. Aspiration allows identification of the causative organism and guides antibiotic treatment."
+                },
+                {
+                  "question": "A 36 year old woman and her partner have been trying to conceive for the last 18 months. Neither has attained a pregnancy before. Both are medically fit and well and have no surgical history. Her periods are every 38-45 days. Both smoke 5-10 cigarettes per day and drink occasionally at the weekend. Examination is unremarkable in both. Which is the most likely cause of their inability to conceive?",
+                  "options": [
+                    "A) Abnormal semen",
+                    "B) Anovulatory cycles",
+                    "C) Parental smoking",
+                    "D) Unexplained subfertility",
+                    "E) Uterine tube blockage"
+                  ],
+                  "correct_answer": "B",
+                  "justification": "The most likely cause is anovulatory cycles. Her menstrual cycles are irregular and longer than the normal range of 21-32 days, suggesting infrequent or absent ovulation."
+                },
+                {
+                  "question": "A 45 year old man has a lump in the right side of his neck. He has never smoked and takes no regular medications. Fine needle aspiration of the mass reveals squamous cell carcinoma, and subsequent investigations identify the primary tumour in the right tonsil. Which virus is associated with this malignancy?",
+                  "options": [
+                    "A) Cytomegalovirus",
+                    "B) Epstein–Barr virus",
+                    "C) Human immunodeficiency virus",
+                    "D) Human papilloma virus",
+                    "E) Human T-lymphotropic virus"
+                  ],
+                  "correct_answer": "D",
+                  "justification": "Human papilloma virus (HPV) is associated with squamous cell carcinoma of the oropharynx, including the tonsils. HPV-related cancers are increasing in incidence and also include cervical, vulval, penile, and anal cancers."
+                },
+                {
+                  "question": "A 78 year old man has worsening breathlessness. He has heart failure that has been progressively worsening over the past 12 months. He has been bed bound for the past 2 weeks. He was recently found to have probable lung carcinoma but was not fit for further investigation. He is dyspnoeic, cyanosed, and confused. He has inspiratory crackles in both lung bases. He is treated with intravenous furosemide. Which additional treatment is most likely to reduce his breathlessness?",
+                  "options": [
+                    "A) Intramuscular haloperidol",
+                    "B) Intravenous glyceryl trinitrate",
+                    "C) Intravenous morphine",
+                    "D) Nasal intermittent positive pressure ventilation",
+                    "E) Nebulised salbutamol"
+                  ],
+                  "correct_answer": "C",
+                  "justification": "Intravenous morphine is most likely to reduce breathlessness in this patient with severe dyspnea due to end-stage heart failure. Morphine helps alleviate dyspnea by reducing respiratory drive and anxiety."
+                },
+                {
+                  "question": "An 18 year old woman has a sudden sharp stabbing pain in her abdomen, lasting only a few minutes. It is 14 days since her last period started. She indicates that the pain is localised to the left iliac fossa. A surge in which hormone is most likely to coincide with her pain?",
+                  "options": [
+                    "A) Follicle stimulating hormone",
+                    "B) Luteinising hormone",
+                    "C) Oestrogen",
+                    "D) Progesterone",
+                    "E) Prolactin"
+                  ],
+                  "correct_answer": "B",
+                  "justification": "The pain is likely due to ovulation ('mittelschmerz'), which occurs around mid-cycle and is triggered by a surge in luteinising hormone."
+                },
+                {
+                  "question": "A 72 year old man with lung cancer is admitted to the respiratory ward with recurrent haemoptysis. He is known to the palliative care team and is near the end of his life. He says he wants to have his terminal care on the respiratory ward because he knows and trusts the nurses. A 'do not attempt resuscitation' form is completed. A doctor suggests that the local hospice is better equipped for his care. His son agrees. What should be the most important factor influencing the decision on whether to move him to a hospice?",
+                  "options": [
+                    "A) Consultant's view of patient's best interests",
+                    "B) Hospital bed state",
+                    "C) Local policy on end-of-life care",
+                    "D) Patient's previous opinion",
+                    "E) Son's wishes"
+                  ],
+                  "correct_answer": "D",
+                  "justification": "The patient's previous opinion should be the most important factor in determining his place of terminal care. His wishes should be prioritised over hospital policy or his son's preferences."
+                },
+                {
+                  "question": "A 74 year old woman has had a left-sided headache and discomfort when chewing food for 3 months. She experiences a sensation of pressure and pain in her jaw, even when talking. She has lost 8 kg in weight over the same time period. Investigations show CRP 45 mg/L (<5). Which investigation is most likely to establish the diagnosis?",
+                  "options": [
+                    "A) CT scan of head",
+                    "B) Parotid sialogram",
+                    "C) Serum anti-neutrophil cytoplasmic antibodies",
+                    "D) Temporal artery biopsy",
+                    "E) X-ray of temporomandibular joint"
+                  ],
+                  "correct_answer": "D",
+                  "justification": "The most appropriate investigation is a temporal artery biopsy to confirm a diagnosis of giant cell arteritis, which presents with headache, jaw claudication, weight loss, and elevated inflammatory markers."
+                },
+                {
+                  "question": "A group of 75 men and a group of 75 women performed a standardised exercise test and had their pulse rate measured at the end. The data from the two groups were compared. The data is normally distributed with equal variance. Which is the most appropriate statistical test to compare these groups?",
+                  "options": [
+                    "A) Analysis of variance",
+                    "B) Friedman's test",
+                    "C) Mann–Whitney test",
+                    "D) Paired Student's t-test",
+                    "E) Unpaired Student's t-test"
+                  ],
+                  "correct_answer": "E",
+                  "justification": "An unpaired Student's t-test is the appropriate statistical test to compare the means of two independent groups when the data is normally distributed and has equal variance."
+                },
+                {
+                  "question": "A 45 year old man has a tremor that has worsened over several weeks. He has schizophrenia and takes haloperidol. He has bilateral tremor and cogwheel rigidity in his upper limbs. Which is the most appropriate treatment to manage his symptoms?",
+                  "options": [
+                    "A) Co-beneldopa",
+                    "B) Entacapone",
+                    "C) Pramipexole",
+                    "D) Procyclidine hydrochloride",
+                    "E) Selegiline hydrochloride"
+                  ],
+                  "correct_answer": "D",
+                  "justification": "The patient's symptoms are consistent with drug-induced parkinsonism, a side effect of dopamine-blocking agents like haloperidol. Procyclidine, an anticholinergic, is used to treat extrapyramidal side effects."
+                },
+                {
+                  "question": "A 30 year old man is unable to straighten his right middle finger after an injury. He has a flexion deformity of the finger at the distal interphalangeal joint and is unable to actively extend his finger. Which is the most appropriate management option?",
+                  "options": [
+                    "A) External finger fixation",
+                    "B) Finger splint",
+                    "C) Internal finger fixation",
+                    "D) Reassurance",
+                    "E) Steroid injection"
+                  ],
+                  "correct_answer": "B",
+                  "justification": "The most appropriate management is a finger splint, which immobilises the finger to allow the extensor tendon to heal. This condition is known as 'mallet finger.'"
+                },
+                  {
+                    "question": "A 20 year old man has had two months of night sweats and 5 kg weight loss. He was previously well. His temperature is 37.6°C. He has palpable neck lymph nodes and splenomegaly. Investigations show enlarged mediastinal lymph nodes and splenomegaly on CT scan, and lymph node biopsy reveals Hodgkin/Reed-Sternberg (HRS) cells admixed with a polymorphous inflammatory infiltrate. Which is the most appropriate first-line treatment?",
+                    "options": [
+                      "A) Chemotherapy",
+                      "B) Corticosteroids",
+                      "C) Immunotherapy",
+                      "D) Radiotherapy",
+                      "E) Surgical excision of mediastinal lymph nodes"
+                    ],
+                    "correct_answer": "A",
+                    "justification": "The most appropriate first-line treatment for classical Hodgkin lymphoma is chemotherapy. Corticosteroids may be used in addition to chemotherapy in certain cases but are not typically first-line. Radiotherapy and immunotherapy may be part of treatment regimens but are not the primary initial treatments."
+                  },
+                  {
+                    "question": "A 72 year old man is admitted with cough, breathlessness, and confusion. He has metastatic adenocarcinoma and is being treated with chemotherapy. His wife reports that he has had enough of his treatment and planned to discontinue active treatment. He is drowsy and unable to answer questions. He has bronchial breathing at the left base and is given 0.9% sodium chloride and broad-spectrum antibiotics intravenously. Which is the most appropriate way to determine his cardiopulmonary resuscitation status on this admission?",
+                    "options": [
+                      "A) Admitting team should decide",
+                      "B) Ask an independent advocate to decide",
+                      "C) Ask consultant oncologist to decide",
+                      "D) Ask his wife to decide",
+                      "E) Wait 24 hours to see if patient regains capacity to decide"
+                    ],
+                    "correct_answer": "A",
+                    "justification": "As the patient is currently unable to answer questions and his treatment preferences were not formally documented, the admitting team should make the decision regarding CPR status in accordance with best clinical judgment and ethical guidelines."
+                  },
+                  {
+                    "question": "A 36 year old man with type 1 diabetes mellitus has a pilonidal sinus. He takes 14 units of long-acting insulin at night and short-acting insulin three times daily at mealtimes (typically 6-8 units per meal). He is scheduled for excision of the sinus under general anaesthesia, first on a morning operating list. He is asked to fast from midnight the night before. His HbA1c is 58 mmol/mol (20-42). Which is the most appropriate plan for managing his insulin pre-operatively?",
+                    "options": [
+                      "A) Omit evening and morning insulin doses",
+                      "B) Start a variable-rate insulin infusion on the morning of surgery",
+                      "C) Start a variable-rate insulin infusion the evening before surgery",
+                      "D) Take evening and morning insulin doses, as usual",
+                      "E) Take usual evening insulin and omit morning insulin"
+                    ],
+                    "correct_answer": "E",
+                    "justification": "To prevent both hyperglycaemia and hypoglycaemia, the patient should take their usual long-acting insulin the evening before but omit the morning short-acting insulin, as they will be fasting before surgery. Blood glucose should be closely monitored during the perioperative period."
+                  },
+                  {
+                    "question": "A 3 year old girl has had a fever and a runny nose for 2 days. She is alert but miserable. Her temperature is 39.6°C, pulse rate 150 bpm, BP 105/62 mmHg, respiratory rate 36 breaths per minute, and oxygen saturation 97% in air. She has a red throat and looks flushed with a flat, erythematous rash across her trunk and face that feels rough. There is no rash around her mouth. Which is the most likely diagnosis?",
+                    "options": [
+                      "A) Kawasaki disease",
+                      "B) Measles",
+                      "C) Parvovirus infection",
+                      "D) Rhinovirus infection",
+                      "E) Scarlet fever"
+                    ],
+                    "correct_answer": "E",
+                    "justification": "The most likely diagnosis is scarlet fever, a bacterial infection caused by Group A Streptococcus. It presents with fever, sore throat, and a characteristic sandpaper-like rash, often with flushed cheeks and a pale area around the mouth."
+                  },
+                  {
+                    "question": "A one-week-old girl has pale stools in her nappy, with streaks of dark urine. She is fully breastfed and was born at term. She has lost 8.2% of her birth weight. She is apyrexial, alert, and has jaundice. Which is the most appropriate investigation?",
+                    "image":"Screenshot_15-2-2025_125352_.jpeg",
+                    "options": [
+                      "A) Coombs (direct antiglobulin) test",
+                      "B) Full blood count and film",
+                      "C) Plasma glucose",
+                      "D) Split bilirubin",
+                      "E) Urea and electrolytes"
+                    ],
+                    "correct_answer": "D",
+                    "justification": "The presentation suggests conjugated hyperbilirubinaemia, which is indicative of an underlying pathological condition such as biliary atresia. A split bilirubin test helps differentiate between conjugated and unconjugated hyperbilirubinaemia."
+                  },
+                    {
+                      "question": "A 36 year old woman attends for an asthma review. She requires a long-acting β-agonist and steroid combination inhaler. The guidelines suggest either a metered dose inhaler or a dry powder inhaler, both at the same price. The patient asks which is better for the environment. Which component of these inhalers has the highest carbon footprint?",
+                      "options": [
+                        "A) Hydrofluorocarbon propellant in the metered dose inhaler",
+                        "B) Packaging of the dry powder inhaler",
+                        "C) Plastic component of the dry powder inhaler",
+                        "D) Plastic component of the metered dose inhaler",
+                        "E) Powder component of the dry powder inhaler"
+                      ],
+                      "correct_answer": "A",
+                      "justification": "The hydrofluorocarbon propellant in metered dose inhalers has the highest carbon footprint. It is a greenhouse gas that contributes to climate change. Dry powder inhalers do not use propellants and have a lower environmental impact."
+                    },
+                    {
+                      "question": "An 18 year old man is worried about his cancer risk. His paternal grandfather died of colorectal cancer at 42 years of age, and his 36 year old father has just been diagnosed with colorectal cancer. The son's colonoscopy shows hundreds of colonic polyps, and biopsies from several polyps show adenomatous change with low-grade dysplasia. Which is the most appropriate strategy to prevent colon cancer in this situation?",
+                      "options": [
+                        "A) Daily low dose aspirin",
+                        "B) Diet rich in fruit and vegetables",
+                        "C) Panproctocolectomy",
+                        "D) Annual faecal immunochemical test (FIT)",
+                        "E) Annual colonoscopy and biopsy"
+                      ],
+                      "correct_answer": "C",
+                      "justification": "The most appropriate strategy is panproctocolectomy, given the strong family history and presence of numerous colonic polyps with dysplasia, which are consistent with familial adenomatous polyposis (FAP). Prophylactic surgery is recommended to prevent progression to colorectal cancer."
+                    },
+                    {
+                      "question": "A 21 year old man has a fear of public speaking. He is a student and has to give an oral presentation but feels unable to manage this. He fears that he will embarrass himself or even vomit. The thought of giving his presentation gives him palpitations and makes him breathless and dizzy. He has avoided his tutor for 3 months and has not left his flat for several weeks. He recognises that his fears are irrational but feels overwhelmed. Which is the most likely diagnosis?",
+                      "options": [
+                        "A) Agoraphobia",
+                        "B) Anxious avoidant personality disorder",
+                        "C) Emetophobia",
+                        "D) Panic disorder",
+                        "E) Social phobia"
+                      ],
+                      "correct_answer": "E",
+                      "justification": "The patient's intense fear of public speaking, avoidance behaviour, and recognition that his fears are irrational suggest social phobia (social anxiety disorder). This is characterised by excessive fear of social situations and can significantly impact daily life."
+                    },
+                    {
+                      "question": "A 46 year old man has sudden onset and intense lower back pain. He has no pain or numbness in his buttocks or legs. He is diagnosed with mechanical back pain and has no drug contraindications. Which is the most appropriate initial medication?",
+                      "options": [
+                        "A) Amitriptyline",
+                        "B) Fentanyl",
+                        "C) Ibuprofen",
+                        "D) Paracetamol",
+                        "E) Triamcinolone"
+                      ],
+                      "correct_answer": "C",
+                      "justification": "The most appropriate initial treatment for mechanical back pain is a nonsteroidal anti-inflammatory drug (NSAID) like ibuprofen, provided there are no contraindications. Paracetamol alone is not recommended, and opioids or steroids are not indicated in this setting."
+                    },
+                    {
+                      "question": "A 56 year old woman has had 2 months of intermittent vertigo, which typically occurs when turning over in bed or looking over her shoulder while driving. Each episode lasts for up to 1 minute. She has no hearing loss, tinnitus, or ear pain. Which test is most likely to confirm the diagnosis?",
+                      "options": [
+                        "A) Audiometry",
+                        "B) Carotid doppler ultrasonography",
+                        "C) CT scan of head",
+                        "D) Dix–Hallpike manoeuvre",
+                        "E) MR of internal auditory meatus"
+                      ],
+                      "correct_answer": "D",
+                      "justification": "The Dix-Hallpike manoeuvre is used to diagnose benign paroxysmal positional vertigo (BPPV), which is caused by displaced otoconia in the posterior semicircular canal. The test is positive if it elicits vertigo and nystagmus."
+                    },
+                    
+                      {
+                        "question": "A 62 year old man is brought to the operating theatre recovery room after a laryngoscopy and vocal cord biopsy. He appears to be conscious, but his breathing is shallow and respiratory rate is 28 breaths per minute. His voice is weak, and when asked to squeeze the nurse’s fingers, his grip is not sustained. Which drug will reverse these signs?",
+                        "options": [
+                          "A) Doxapram",
+                          "B) Glycopyrronium",
+                          "C) Naloxone",
+                          "D) Neostigmine",
+                          "E) Rocuronium"
+                        ],
+                        "correct_answer": "D",
+                        "justification": "The weak grip, cough, and shallow breathing suggest residual effects of neuromuscular blockade. Neostigmine is a cholinesterase inhibitor that reverses neuromuscular blockade by increasing acetylcholine at the neuromuscular junction, restoring muscular strength."
+                      },
+                      {
+                        "question": "A 50 year old woman has broken her right radius after tripping at home. She has been experiencing hot flushes and night sweats for the past six months, with irregular menstruation. She has been taking salbutamol and beclometasone regularly for more than five years to treat asthma. Her fracture heals with no complications. Which investigation will most effectively evaluate her future risk of fractures?",
+                        "options": [
+                          "A) 99m-Technetium bone scintigraphy",
+                          "B) Dual energy X-ray absorptiometry",
+                          "C) MR scan of spine and hip",
+                          "D) Plain X-ray of lumbar spine and pelvis",
+                          "E) Quantitative CT scan of spine and hip"
+                        ],
+                        "correct_answer": "B",
+                        "justification": "Dual energy X-ray absorptiometry (DEXA) is the gold standard for assessing bone mineral density and fracture risk. Her menopausal symptoms and long-term inhaled corticosteroid use increase her risk of osteoporosis."
+                      },
+                      {
+                        "question": "A 72 year old man has had difficulty swallowing solids. He has cancer of the middle third of the oesophagus and hepatic metastases. Which is the most appropriate initial management of his dysphagia?",
+                        "options": [
+                          "A) Chemotherapy",
+                          "B) Excision of tumour",
+                          "C) Gastrostomy feeding tube",
+                          "D) Oesophageal stent",
+                          "E) Radiotherapy"
+                        ],
+                        "correct_answer": "D",
+                        "justification": "An oesophageal stent provides rapid palliation of dysphagia in patients with advanced oesophageal cancer. It is minimally invasive and helps maintain oral intake."
+                      },
+                      {
+                        "question": "A 64 year old man has low thoracic back pain and has been tired for the past 6 weeks. He is a non-smoker. He has hypertension and takes amlodipine. His urinalysis is normal. Investigations: Haemoglobin 81 g/L (135–175), MCV 82 fL (80–96), White cell count 4.3 × 10⁹/L (3.0–10.0), Platelets 74 × 10⁹/L (150–400), Creatinine 203 µmol/L (60–120). Which initial investigation is most likely to help establish a diagnosis?",
+                        "options": [
+                          "A) Anti-neutrophil cytoplasmic antibody",
+                          "B) Antinuclear antibody",
+                          "C) Complement levels (C3 and C4)",
+                          "D) Coagulation screen",
+                          "E) Serum free light chains"
+                        ],
+                        "correct_answer": "E",
+                        "justification": "The combination of back pain, normocytic anaemia, thrombocytopenia, and renal impairment raises suspicion of multiple myeloma. Serum free light chain testing detects Bence-Jones proteins, characteristic of myeloma."
+                      },
+                      {
+                        "question": "A 66 year old woman has become forgetful, does not sleep well, and has lost her appetite over the last few weeks. She has been getting up early in the morning because she cannot sleep. She feels that she is no longer of any use to her family. Mini Mental State Examination is 27/30. Which is the most likely diagnosis?",
+                        "options": [
+                          "A) Age-associated memory impairment",
+                          "B) Alzheimer’s disease",
+                          "C) Depression",
+                          "D) Frontotemporal dementia",
+                          "E) Vascular dementia"
+                        ],
+                        "correct_answer": "C",
+                        "justification": "The presence of low mood, early morning wakening, loss of appetite, and feelings of worthlessness strongly suggest depression rather than dementia, as evidenced by the near-normal MMSE score."
+                      },
+                      {
+                        "question": "A consultant is looking to find published evidence on reducing the incidence of deep venous thrombosis. Which type of study would provide the highest quality evidence?",
+                        "options": [
+                          "A) Case control study",
+                          "B) Case series",
+                          "C) Cohort study",
+                          "D) Meta-analysis of trials",
+                          "E) Randomised controlled trial"
+                        ],
+                        "correct_answer": "D",
+                        "justification": "A meta-analysis of trials provides the highest level of evidence by systematically reviewing multiple randomised controlled trials, increasing statistical power and reducing bias."
+                      },
+                      {
+                        "question": "A 62 year old man has had 3 months of general weakness, fatigue, 10 kg weight loss, and mild abdominal discomfort over the right hypochondrium. He was found to have liver cirrhosis 10 years ago and has abstained from alcohol since the diagnosis. He has a non-tender, fixed hard mass in the right upper quadrant. Which serum investigation is most appropriate to aid diagnosis?",
+                        "options": [
+                          "A) α-Fetoprotein",
+                          "B) β-Human chorionic gonadotropin",
+                          "C) CA 125",
+                          "D) CA 19-9",
+                          "E) Carcinoembryonic antigen"
+                        ],
+                        "correct_answer": "A",
+                        "justification": "α-Fetoprotein is a tumour marker commonly elevated in hepatocellular carcinoma (HCC), which is strongly suspected in this patient with cirrhosis and a liver mass."
+                      },
+                      {
+                        "question": "A 7 year old boy has intermittent pain in his left groin when playing football and climbing stairs. This has worsened over the past 4 weeks. He has now developed a painless limp. His temperature is 37.1°C. He has reduced range of movement and pain on internal rotation and abduction. Which is the most likely diagnosis?",
+                        "options": [
+                          "A) Osgood–Schlatter disease",
+                          "B) Perthes' disease",
+                          "C) Septic arthritis",
+                          "D) Slipped upper femoral epiphysis",
+                          "E) Transient synovitis"
+                        ],
+                        "correct_answer": "B",
+                        "justification": "Perthes' disease (Legg-Calvé-Perthes disease) is a common cause of hip pain and limp in young boys. It is characterised by avascular necrosis of the femoral head, leading to progressive pain and restricted movement."
+                      },
+                      {
+                        "question": "A 28 year old primigravida attends the antenatal clinic at 35 weeks' gestation. She has 2 weeks of persistent itching of her palms, soles, and abdomen. Her pregnancy has been uncomplicated to date, and she is feeling good fetal movements. She has red scratch marks on her abdomen with no rash. Which is the most appropriate diagnostic investigation?",
+                        "options": [
+                          "A) Anti-mitochondrial antibody",
+                          "B) Iron studies",
+                          "C) Liver function tests",
+                          "D) Thyroid function tests",
+                          "E) Urea and electrolytes"
+                        ],
+                        "correct_answer": "C",
+                        "justification": "Persistent pruritus in pregnancy without rash suggests obstetric cholestasis. Liver function tests, particularly serum bile acids, help confirm the diagnosis."
+                      },
+                      {
+                        "question": "A 23 year old woman commenced chemotherapy for Burkitt's lymphoma yesterday. Since then, she has been feeling increasingly nauseated. Her temperature is 36.8°C, pulse rate 96 bpm, and BP 112/80 mmHg. Urine output has been 40 mL in the last 12 hours. Investigations on admission were normal. Investigations today: Potassium 6.2 mmol/L (3.5–5.3), Urea 9 mmol/L (2.5–7.8), Creatinine 410 µmol/L (60–120). Which investigation is most likely to identify the cause of her acute deterioration?",
+                        "options": [
+                          "A) Blood cultures",
+                          "B) C-reactive protein",
+                          "C) Creatine kinase",
+                          "D) Phosphate",
+                          "E) Urate"
+                        ],
+                        "correct_answer": "E",
+                        "justification": "The patient’s symptoms and biochemical abnormalities suggest tumour lysis syndrome, a common complication of chemotherapy. Elevated uric acid (urate) is a hallmark of this condition."
+                      },
+                      {
+                        "question": "A 44 year old woman is increasingly hypotensive in the high dependency unit. She was admitted 12 hours earlier with loin pain, dysuria and rigors, and was treated with intravenous broad spectrum antibiotics. Her temperature is 37.8°C, pulse rate 112 bpm, BP 91/60 mmHg, central venous pressure +12 mmHg and oxygen saturation 95% on 60% oxygen. Investigations: Sodium 139 mmol/L (135–146), Potassium 5.1 mmol/L (3.5-5.3), Urea 10.3 mmol/L (2.5-7.8), Creatinine 159 μmol/L (60–120). She has been treated with 3 L of 0.9% sodium chloride since admission, with a urine output of 400 mL in total and 10–20 mL/hr for the past 4 hours. Which is the most appropriate next step in management?",
+                        "options": [
+                          "A) Haemofiltration",
+                          "B) Intravenous 500 mL gelatin over 30 minutes",
+                          "C) Intravenous 500 mL 0.9% sodium chloride over 30 minutes",
+                          "D) Intravenous furosemide bolus",
+                          "E) Intravenous noradrenaline/norepinephrine infusion"
+                        ],
+                        "correct_answer": "E",
+                        "justification": "Intravenous noradrenaline/norepinephrine infusion is the most appropriate next step in management. The patient is presenting with signs of sepsis and is experiencing hypotension despite adequate fluid resuscitation, indicating septic shock. The next step is to initiate vasopressor support, such as noradrenaline/norepinephrine infusion, to increase systemic vascular resistance and maintain blood pressure."
+                      },
+                      
+                      {
+                        "question": "A 43 year old man has inoperable cancer of the bowel with hepatic and peritoneal metastases. He has back pain due to tumour infiltration. The pain has been controlled with regular codeine phosphate at maximum dosage. He now has bowel obstruction with vomiting and his pain has recurred because he cannot take oral medication. Which is the most effective drug to control his pain?",
+                        "options": [
+                          "A) Buprenorphine transcutaneous patch",
+                          "B) Codeine phosphate intramuscular injection",
+                          "C) Fentanyl transcutaneous patch",
+                          "D) Morphine sulfate continuous subcutaneous infusion",
+                          "E) Tramadol hydrochloride intramuscular injection"
+                        ],
+                        "correct_answer": "D",
+                        "justification": "The most effective drug for pain control in this case would likely be morphine sulfate continuous subcutaneous infusion, as the patient is unable to take oral medication due to bowel obstruction and vomiting, and requires continuous analgesia."
+                      },
+                      
+                      {
+                        "question": "A full term newborn boy is discharged home 48 hours after birth. The next day, his 2 year old sibling develops a florid chickenpox rash. His mother has detectable varicella antibodies. The newborn remains clinically well. Which is the most appropriate management decision?",
+                        "options": [
+                          "A) Admit for observation",
+                          "B) Check antibody status for varicella antibodies",
+                          "C) No action is necessary",
+                          "D) Treat with aciclovir",
+                          "E) Treat with zoster immune globulin"
+                        ],
+                        "correct_answer": "C",
+                        "justification": "The most appropriate management is no action, as the newborn remains clinically well, and the mother has detectable varicella antibodies, indicating potential passive immunity transfer to the newborn."
+                      },
+                      
+                      {
+                        "question": "A 35 year old woman finds a small firm lump on self examination of her breast. It is excised and is a firm, well-circumscribed solid mass, 2 cm in diameter. Histology shows a discrete mass with duct-like structures lined by regular columnar cells, separated by loose fibrous tissue. Which is the most likely diagnosis?",
+                        "options": [
+                          "A) Carcinoma in situ",
+                          "B) Ductal carcinoma",
+                          "C) Fibroadenoma",
+                          "D) Intraductal papilloma",
+                          "E) Paget's disease of the breast"
+                        ],
+                        "correct_answer": "C",
+                        "justification": "The histological features of a discrete mass with duct-like structures lined by regular, low columnar cells separated by loose fibrous tissue with well-defined margins are characteristic of a fibroadenoma, the most common benign breast lump in young women."
+                      },
+                      
+                      {
+                        "question": "A 22 year old woman has intense itching and pain in her right ear that has gradually worsened over several days. She says that her hearing appears to be affected. She is a surfer. She has debris in the right ear canal, and the tympanic membrane is not visible. There is pain on pulling the pinna. Which is the most likely diagnosis?",
+                        "options": [
+                          "A) Cholesteatoma",
+                          "B) Mastoiditis",
+                          "C) Otitis externa",
+                          "D) Otitis media",
+                          "E) Ruptured tympanic membrane"
+                        ],
+                        "correct_answer": "C",
+                        "justification": "Otitis externa is an inflammation or infection of the external auditory canal, often associated with water exposure. The symptoms of pain exacerbated by pulling the pinna, and hearing loss are characteristic of this condition."
+                      },
+                      {
+                        "question": "A 35 year old woman has a painful lump in her breast. Her mother had breast cancer at the age of 65 years. She is 32 weeks pregnant with no past medical history. She is not taking any medication. She smokes 5 cigarettes per day. There is a 2 cm lump in her right breast that is tender on palpation. There is redness of the overlying skin. Which is the most appropriate management?",
+                        "options": [
+                          "A) Bilateral mammogram",
+                          "B) No further investigations until after delivery",
+                          "C) Start oral cefalexin",
+                          "D) Surgical excision of lump",
+                          "E) Triple assessment"
+                        ],
+                        "correct_answer": "E",
+                        "justification": "Triple assessment (clinical examination, imaging, and biopsy) is the most appropriate management for a pregnant woman with a breast lump. This ensures that both benign and malignant causes are thoroughly investigated."
+                      },
+                      
+                      {
+                        "question": "A 35 year old woman is admitted unconscious to the Emergency Department after being found collapsed outside a pub. There was an empty vodka bottle lying next to her. Her pulse is 86 bpm, BP 112/62 mmHg, respiratory rate 12 breaths per minute and oxygen saturation is 98% breathing air. Which is the most important immediate investigation?",
+                        "options": [
+                          "A) Arterial blood gas",
+                          "B) Blood alcohol level",
+                          "C) Capillary blood glucose",
+                          "D) Urea and electrolytes",
+                          "E) Urinary drug screen"
+                        ],
+                        "correct_answer": "C",
+                        "justification": "Capillary blood glucose is the most important immediate investigation to exclude hypoglycaemia (especially in the context of alcohol ingestion) or hyperglycaemia."
+                      },
+                      
+                      {
+                        "question": "A 28 year old woman has a lobar pneumonia and is treated with intravenous amoxicillin. A few minutes after she is given the antibiotic therapy, she develops an itchy skin eruption and increased breathlessness. Which is the most likely mechanism of this reaction?",
+                        "options": [
+                          "A) Antibody binding to cell-bound antigen",
+                          "B) Complement activation",
+                          "C) Delayed-type hypersensitivity",
+                          "D) Immediate hypersensitivity",
+                          "E) Immune complex hypersensitivity"
+                        ],
+                        "correct_answer": "D",
+                        "justification": "The patient is experiencing an anaphylactic reaction, which is a type of immediate hypersensitivity reaction, causing symptoms such as skin rash, itching, and shortness of breath."
+                      },
+                      
+                      {
+                        "question": "A 39 year old woman has had worsening tiredness for 2 weeks. She was previously well. She is mildly jaundiced. Her pulse rate is 96 bpm and BP 112/76 mmHg. Investigations: Haemoglobin 48 g/L (115–150), White cell count 6.2 × 10^9/L (4.0–11.0), Platelets 165 × 10^9/L (150–400), Mean cell volume (MCV) 98 fL (80–96), Alkaline phosphatase 100 IU/L (25–115), Aspartate aminotransferase (AST) 27 IU/L (10–40), Bilirubin (total) 41 µmol/L (< 21), Lactate dehydrogenase 560 IU/L (70–250), Blood film: red cell polychromasia, occasional spherocytes, no red cell fragments. Which is the most appropriate diagnostic investigation?",
+                        "options": [
+                          "A) Bone marrow aspiration",
+                          "B) Direct antiglobulin test",
+                          "C) Serum antinuclear antibody",
+                          "D) Serum folate",
+                          "E) Serum vitamin B₁₂"
+                        ],
+                        "correct_answer": "B",
+                        "justification": "The most appropriate diagnostic investigation is the direct antiglobulin test (Coombs test). This patient's anaemia with raised bilirubin and LDH, and the presence of spherocytes on the blood film, are consistent with autoimmune haemolytic anaemia."
+                      },
+                      
+                      {
+                        "question": "A 65 year old woman has two episodes of vaginal bleeding. Her last menstrual period was 12 years ago. Abdominal and pelvic examination are normal. Pelvic ultrasound scan shows an endometrial thickness of 10 mm. Which is the most appropriate next investigation?",
+                        "options": [
+                          "A) CA 125",
+                          "B) Cervical cytology",
+                          "C) CT scan of pelvis, abdomen and chest",
+                          "D) Hysteroscopy and endometrial biopsy",
+                          "E) MR scan of pelvis"
+                        ],
+                        "correct_answer": "D",
+                        "justification": "The most appropriate next step is hysteroscopy and endometrial biopsy to exclude endometrial cancer, as the endometrial thickness is >4 mm."
+                      },
+                      
+  {
+    "question": "A 25 year old man develops a muscle contraction in his neck causing pain and an involuntary rotation of his neck. He was admitted to the psychiatric unit 24 hours ago with persecutory delusions, agitation, and auditory hallucinations. He has been given risperidone since admission. Which side effect is he experiencing?",
+    "options": [
+      "A) Akathisia",
+      "B) Autonomic instability",
+      "C) Dystonia",
+      "D) Parkinsonism",
+      "E) Tardive dyskinesia"
+    ],
+    "correct_answer": "C",
+    "justification": "The patient is exhibiting symptoms of acute dystonia, which is a side effect of antipsychotic medication such as risperidone. It is characterised by muscle spasms and contractions, often in the neck and facial muscles. Treatment includes anticholinergic medication such as benztropine or diphenhydramine."
+  },
+  {
+    "question": "An 18 year old woman with sickle cell disease attends the Emergency Department with severe pain in her left leg. She rates her pain score as 8/10. Her temperature is 36.9°C, pulse rate 110 bpm, BP 120/80 mmHg, respiratory rate 16 breaths per minute and oxygen saturation 96% breathing air. Investigations: White cell count 7.1 x 109/L (4.0–11.0) Haemoglobin 71 g/L (115–150) Platelets 190 × 109/L (150–400). Which is the next management step?",
+    "options": [
+      "A) Intravenous co-amoxiclav",
+      "B) Oral prednisolone",
+      "C) Red cell transfusion",
+      "D) Subcutaneous morphine",
+      "E) Treatment dose dalteparin"
+    ],
+    "correct_answer": "D",
+    "justification": "This patient has sickle cell disease and is presenting with severe pain crisis. Treatment of an acute painful sickle cell crisis needs to be considered an acute medical emergency. Pain must be assessed immediately and treated with an acute bolus of a strong opioid such as morphine."
+  },
+  {
+    "question": "A 79 year old woman has had malaise and pain in the arms and legs for 4 weeks, with morning stiffness that lasts for 3 hours each day. She has difficulty washing and dressing. She cannot lift her arms above her head due to pain, but there is no objective muscle weakness. She has Heberden's nodes in her hands. Investigations: Haemoglobin 112 g/L (115–150) White cell count 9.8 × 109/L (4.0–11.0) Platelets 365 × 109/L (150–400). Which is the most likely diagnosis?",
+    "options": [
+      "A) Osteoarthritis",
+      "B) Osteomalacia",
+      "C) Polymyalgia rheumatica",
+      "D) Polymyositis",
+      "E) Rheumatoid arthritis"
+    ],
+    "correct_answer": "C",
+    "justification": "The most likely diagnosis is Polymyalgia rheumatica. This is based on the patient’s age, symptoms of malaise and pain in the arms and legs, morning stiffness lasting for 3 hours each day, difficulty washing and dressing, inability to lift her arms above her head, and elevated CRP."
+  },
+  {
+    "question": "A 30 year old woman becomes acutely short of breath. She was admitted to hospital 3 hours ago with an acute exacerbation of asthma. She improved following treatment with oxygen, nebulised salbutamol and oral prednisolone. Her chest X-ray on admission was clear. Her pulse rate is 122 bpm, BP 88/50 mmHg, respiratory rate 30 breaths per minute and oxygen saturation 88% breathing 40% oxygen via a face mask. She has reduced expansion of the upper left chest. She has mild wheeze throughout the chest with reduced breath sounds over the left apex. Which is the most likely explanation for her deterioration?",
+    "options": [
+      "A) Anaphylaxis",
+      "B) Increasing severity of asthma",
+      "C) Lobar collapse",
+      "D) Pneumothorax",
+      "E) Pulmonary embolus"
+    ],
+    "correct_answer": "D",
+    "justification": "The most likely explanation for her deterioration is the development of a pneumothorax following admission. Reduced expansion of the upper left chest and reduced breath sounds over the left apex suggest a possible pneumothorax."
+  },
+  {
+    "question": "A 40 year old man had a laparotomy for intestinal obstruction 12 hours ago. He has an epidural for analgesia and has been given a 500 mL intravenous crystalloid bolus. He has no pain. He has no pre-existing medical problems. His pulse rate is 120 bpm and BP 80/62 mmHg. He has passed 10 mL of urine in the past 4 hours. He shows no sign of heart failure. Which is the most appropriate first line of management?",
+    "options": [
+      "A) IV diuretic",
+      "B) IV fluid bolus",
+      "C) IV vasoconstrictor",
+      "D) Place bed head down",
+      "E) Stop epidural analgesia"
+    ],
+    "correct_answer": "B",
+    "justification": "The most appropriate first line of management for this patient would be IV fluid bolus. The patient shows signs of hypovolemia, including tachycardia, hypotension, and oliguria. Another fluid bolus is indicated to improve perfusion and restore blood pressure."
+  },
+  {
+    "question": "A 23 year old man has had joint pains for the last 6 months. He thinks he may have contracted hepatitis B following unprotected sex 6 months ago and is unsure of his hepatitis B vaccination status. Investigations: HBsAg –ve, anti-HBc IgG +ve, anti-HBs IgG +ve. Which is the best description of his hepatitis B status?",
+    "options": [
+      "A) Acute infection",
+      "B) Chronic infection",
+      "C) Immune due to naturally resolved infection",
+      "D) Immune due to previous vaccination for hepatitis B",
+      "E) Not infected but susceptible to further infection"
+    ],
+    "correct_answer": "C",
+    "justification": "The patient has immunity due to a naturally resolved hepatitis B infection, as indicated by negative HBsAg and positive anti-HBc IgG and anti-HBs IgG results."
+  },
+  {
+    "question": "A 65 year old woman has had headaches for 3 months. She was treated for cancer of the right breast 12 years ago. There is no evidence of local or regional recurrence. Examination of the central nervous system is normal. CT scan of brain shows an isolated metastasis with cerebral oedema. Which is the most appropriate immediate treatment?",
+    "options": [
+      "A) Anastrozole",
+      "B) Chemotherapy",
+      "C) Dexamethasone",
+      "D) Radiotherapy",
+      "E) Surgical decompression"
+    ],
+    "correct_answer": "C",
+    "justification": "The most appropriate immediate treatment is dexamethasone to reduce cerebral oedema and alleviate symptoms like headaches. It is commonly used as an initial treatment for brain metastases."
+  },
+  {
+    "question": "A 45 year old man has had two hours of colicky left sided abdominal pain radiating to his groin. The pain started abruptly and is associated with nausea and vomiting. He is restless and writhing in pain. There is tenderness on palpation of the left costovertebral angle. Abdominal examination is normal. Bowel sounds are present but scanty. His urinalysis shows blood 3+ and no other abnormalities. Which is the most appropriate initial analgesic agent?",
+    "options": [
+      "A) Aspirin",
+      "B) Diclofenac",
+      "C) Oxycodone",
+      "D) Paracetamol",
+      "E) Tramadol"
+    ],
+    "correct_answer": "B",
+    "justification": "The patient is presenting with symptoms consistent with renal colic, and the most appropriate initial analgesic is diclofenac, a nonsteroidal anti-inflammatory drug."
+  },
+  {
+    "question": "A 70 year old man has had 1 day of cough and breathlessness. He has COPD and heart failure. His normal exercise tolerance is 100 m. He has had no previous hospital admissions. He has a 35 pack-year smoking history. He is taking lisinopril and uses a tiotropium inhaler. He is cyanosed and dyspnoeic. His pulse rate is 100 bpm, BP 105/78 mmHg, respiratory rate 30 breaths per minute and oxygen saturation 84% breathing 28% oxygen. He has scattered wheeze and crackles bilaterally. Which is the most appropriate next step in management?",
+    "options": [
+      "A) Increase oxygen to 40% via a Venturi mask",
+      "B) Intravenous amoxicillin",
+      "C) Intravenous furosemide",
+      "D) Non-invasive ventilation",
+      "E) Reduce oxygen to 2 L/min via a nasal cannula"
+    ],
+    "correct_answer": "D",
+    "justification": "The patient is in respiratory failure with type II respiratory failure. The most appropriate management is non-invasive ventilation to improve gas exchange and reduce CO2 retention."
+  },
+  {
+    "question": "A 2 day old boy undergoes his routine neonatal hearing screen. His mother has been deaf since early childhood and has bilateral hearing aids. She asks whether her baby will be deaf. Which is the most appropriate additional assessment?",
+    "options": [
+      "A) Brainstem evoked response test",
+      "B) Cytomegalovirus serology",
+      "C) Distraction testing",
+      "D) MR scan of brain",
+      "E) Weber's test"
+    ],
+    "correct_answer": "A",
+    "justification": "Brainstem evoked response test is the most appropriate assessment to evaluate hearing loss in this newborn. It provides an objective measurement of the auditory pathway."
+  }
+
+
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+
+                    
+                    
+                  
+            
+                               
+                           
+            
+            
+        
+          
+               
+
+      
+      
+    
+    
+
+  
+
   ]
 }
